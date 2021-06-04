@@ -12,7 +12,7 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-	debug('Backend Server Up And Running');
+	//debug('Backend Server Up And Running');
 });
 
 // If you want to start measuring performance in your app, pass a function
