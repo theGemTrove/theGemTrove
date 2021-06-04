@@ -20,7 +20,7 @@ let
 
 // Production Or Development Specific Plugins
 if (isProd) {
-	publicPath = '/static/';
+	publicPath = '';
 	const
 		MiniCssExtractPlugin = require('mini-css-extract-plugin'),
 		TerserPlugin = require('terser-webpack-plugin');
