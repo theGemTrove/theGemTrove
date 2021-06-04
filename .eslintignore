@@ -1,0 +1,2 @@
+# Exclude Linting All Dist Files
+dist/*

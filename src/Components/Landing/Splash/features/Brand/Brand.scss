@@ -1,0 +1,29 @@
+// Sizes
+$BASE_SIZE: 2rem;
+
+// Colors
+$BRAND_COLOR: #deaa86;
+
+// Font Families
+$FONT_FAMILY_LIST: 'Amatic SC', sans-serif;
+
+.brand {
+  align-items: center;
+  color: $BRAND_COLOR;
+  display: flex;
+  font-family: $FONT_FAMILY_LIST;
+  font-size: ($BASE_SIZE * 2);
+  font-weight: bolder;
+  justify-content: space-evenly;
+  letter-spacing: .3rem;
+  padding-top: $BASE_SIZE;
+  width: 15%;
+}
+
+.gemArk {
+  font-size: ($BASE_SIZE * 4);
+}
+
+.brandName {
+  font-size: ($BASE_SIZE * 2);
+}

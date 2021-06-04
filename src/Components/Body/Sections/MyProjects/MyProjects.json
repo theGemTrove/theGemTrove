@@ -1,0 +1,24 @@
+{
+  "projectList": [
+    {
+      "name": "Metrics",
+      "plink": "https://www.google.com",
+      "gemTint": "#0064fa"
+    },
+    {
+      "name": "IGLeague",
+      "plink": "https://www.google.com",
+      "gemTint": "#c86432"
+    },
+    {
+      "name": "Bash Scripts",
+      "plink": "https://www.google.com",
+      "gemTint": "#64c832"
+    },
+    {
+      "name": "Home Lab",
+      "plink": "https://www.google.com",
+      "gemTint": "#c84bc8"
+    }
+  ]
+}

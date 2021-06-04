@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+.navigation {
+  font-family: initial;
+  left: -40rem;
+  margin-left: 8rem;
+  position: fixed;
+  width: 40rem;
+  height: 100%;
+  z-index: 5;
+  background: linear-gradient(to top, rgba(34,32,41,1), rgba(34,32,41,.8)),
+  url("https://www.dropbox.com/s/v0vjnq9jhrfslez/navipanel-background.png?raw=1") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: left .8s cubic-bezier(1, 0, 0, 1);
+}
+
+.langPanel {
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.langDesc {
+  font-size: 1.75rem;
+}
+.langDesc-disabled {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.navigation-list {
+  list-style: none;
+  height: 60%;
+  width: 100%;
+  padding-left: 0;
+  padding-top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-item {
+  position: relative;
+}
+
+.navigation-link {
+  color: #fff;
+  font-family: 'Syne Tactile', cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation-link::before {
+  content: "";
+  width: 3rem;
+  height: .1rem;
+  background-color: #deaa86;
+  position: absolute;
+  top: 1.5rem;
+  left: -4rem;
+  transition: width .5s cubic-bezier(1, 0, 0, 1);
+}
+
+.navigation-link::after {
+  content: "";
+  width: 3rem;
+  height: .1rem;
+  background-color: #deaa86;
+  position: absolute;
+  top: 1.5rem;
+  right: -4rem;
+}
+
+.navigem {
+  font-size: 2.25rem;
+}
+
+.desc_about:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #9999ff, 0 0 0.5em #9999ff, 0 0 0.1em #9999ff, 3px 15px 3px #5555ff;
+}
+.desc_contact:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #04d9ff, 0 0 0.5em #04d9ff, 0 0 0.1em #04d9ff, 3px 15px 3px #04d9ff;
+}
+.desc_projects:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #086522, 0 0 0.5em #086522, 0 0 0.1em #086522, 3px 15px 3px #0F2;
+}
+.desc_education:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FFA500, 0 0 0.5em #FFA500, 0 0 0.1em #FF6500, 3px 15px 3px #FF6500;
+}
+.desc_journal:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FF0000, 0 0 0.5em #FF0000, 0 0 0.1em #FF0000, 3px 15px 3px #F33;
+}
+.desc_employment:hover {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FCE903, 0 0 0.5em #FCE903, 0 0 0.1em #FCE903, 3px 15px 3px #FE3;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}

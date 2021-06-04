@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Front Range Community College",
+      "slink": "https://www.frontrange.edu/",
+      "gradYear": 2009,
+      "degreeType": "Associate In Science",
+      "focus": "Chemistry"
+    },
+    {
+      "name": "El Segundo High School",
+      "slink": "https://www.elsegundohigh.org/",
+      "gradYear": 2007,
+      "degreeType": "High School Diploma",
+      "focus": "General Education"
+    }
+  ]
