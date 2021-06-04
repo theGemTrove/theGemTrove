@@ -1,6 +1,5 @@
 const
 	path		= require('path'),
-	debug		= require('debug')('server'),
 	express = require('express'),
 	app			= express(),
 	pubPath = path.join(__dirname, '..', 'dist'),
