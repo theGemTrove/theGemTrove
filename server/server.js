@@ -2,7 +2,7 @@ const
 	path		= require('path'),
 	express = require('express'),
 	app			= express(),
-	pubPath = path.join(__dirname, '..', 'dist'),
+	pubPath = path.resolve(__dirname, '..', 'dist'),
 	PORT		= process.env.PORT || 4046;
 
 app.use(express.static(pubPath));
