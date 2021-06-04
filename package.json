@@ -12,7 +12,7 @@
     "build:webpack": "webpack",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "webpack serve",
-    "heroku-postbuild": "yarn run bundle:prod",
+    "heroku-postbuild": "npm run bundle:prod",
     "start": "node server/server.js",
     "watch": "nodemon server",
     "watch:webpack": "webpack --watch"
