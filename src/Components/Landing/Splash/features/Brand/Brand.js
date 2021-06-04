@@ -2,8 +2,8 @@
 import React from 'react';
 
 // Font Awesome Imports
-import { FontAwesomeIcon } 	from '@fortawesome/react-fontawesome';
-import {faTreasureChest} 		from "@fortawesome/pro-duotone-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faTreasureChest} 	 from "@fortawesome/pro-duotone-svg-icons";
 
 import './Brand.scss';
 const Brand = () => { 'use strict';

@@ -11,10 +11,11 @@
     "build:babel": "babel src/App/App.js --out-file=public/scripts/app.js --presets=env,react",
     "build:webpack": "webpack",
     "bundle:prod": "NODE_ENV=production webpack",
-    "dev-server": "webpack serve",
+    "dev-server": "NODE_ENV=development webpack serve",
     "heroku-postbuild": "npm run bundle:prod",
+    "live-reload": "live-server dist",
     "start": "node server/server.js",
-    "watch": "nodemon server",
+    "watch": "nodemon server/server.js",
     "watch:webpack": "webpack --watch"
   },
   "browserslist": {

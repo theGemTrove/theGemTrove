@@ -1,5 +1,6 @@
 const
 	path 			  = require('path'),
+	webpack			= require('webpack'),
 	isProd			= process.env.NODE_ENV === 'production',
 	compileMode = isProd ? 'production' : 'development',
 	entry				= './src/App/App.js',
@@ -30,6 +31,7 @@ if (isProd) {
 } else {
 	devServer = {
 		contentBase: path.join(__dirname, './dist'),
+		hot: true,
 		port: 8046,
 		writeToDisk: true
 	}
