@@ -8,7 +8,7 @@ import {faTreasureChest} 	 from "@fortawesome/pro-duotone-svg-icons";
 import './Brand.scss';
 const Brand = () => { 'use strict';
 	const brandInfo = Object.seal({
-		title: 'The Gem Trove'
+		title: 'The GemTrove'
 	});
 	return (
 

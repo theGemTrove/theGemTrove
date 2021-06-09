@@ -73,7 +73,7 @@ const Slider = () => {
 			</div>
 			<div className="copyright">
 				<p>
-					The Gem Trove
+					The GemTrove
 					<br/>
 					A Project Of Imagination
 				</p>

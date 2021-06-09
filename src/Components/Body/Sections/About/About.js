@@ -1,41 +1,38 @@
 import React from 'react';
 import './About.scss';
-
 const About = () => {
-	const info = Object.freeze({
-		headerText: 'Welcome To The Gem Trove!'
-	});
 	return (
 		<section id="about">
 			<article className="aboutArticle aboutAnchor">
-				<h2 className="aboutArticle_Header">{info.headerText}</h2>
+				<h3 className="project__header getInTouch aboutMeHeader">About Me</h3>
 				<div className="creatorPortrait">
 					<img src="https://www.dropbox.com/s/ruigygov3fmc10v/dustin.jpg?raw=1"
 							 alt="Image Of Dustin" className="img-fluid creatorPortrait" loading="lazy"
 					/>
 				</div>
 				<div className="creatorIntroduction">
-					<p className="welcome">
+					<p className="welcome aboutMeParagraph">
 						Please allow me to welcome you to my website!
 					</p>
-					<p className="aboutMe">
-						My name is Dustin, and I'm a Full-Stack MERN Developer with over a decade of
+					<p className="aboutMe aboutMeParagraph">
+						My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with over a decade of
 						experience in building applications, reports, and programs in various languages through a multitude
-						of tools both open-source and proprietary. This site is the culmination of my knowledge and abilities
+						of tools both open-source and proprietary. This site is meant to house the culmination of my
+						knowledge and abilities.
 					</p>
-					<p className="whyGemTrove_lead">
+					<p className="whyGemTrove_lead aboutMeParagraph">
 						Now, you may be wondering...
 					</p>
-					<p className="whyGemTrove">
+					<p className="whyGemTrove aboutMeParagraph">
 						Why "The Gem Trove"?
 					</p>
-					<p className="pseudoExplanation">
-						Well...read on! Perhaps you'll intuit why before I can tell you.
-						If you're impatient, simply scroll down to the page footer to find the answer
+					<p className="pseudoExplanation aboutMeParagraph">
+						Well...read on! Perhaps you'll intuit why before I can tell you, but...
+						if you're impatient, simply scroll down to the page footer for my personal answer.
 					</p>
 				</div>
 				<div className="aboutMe_panel">
-					<div>
+					<div className="aboutMe_textContainer">
 						<div className="accompanyingPhoto_Left setTextBuffer">
 							<div className="picContainer">
 								<div className="card shadow-sm">
@@ -127,13 +124,9 @@ const About = () => {
 									</div>
 								</div>
 								<div className="intro_2 sandwichedText">
-									<p className="pastEmployment">
+									<p className="pastEmployment centerContent">
 										Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
-										whom have become dear friends. The efforts of Bridget, & John Sandoval, Liz Phan, Regan Warner,
-										and Susan Sommerfeld. I hope that you've enjoyed reading up to this point and I hope you've
-										enjoyed getting to see a part of my family and friends. I am thrilled to be able to share this
-										site and the format, method, and delivery of the content as it stands. I hope you check in from
-										time to time as I'll be updating the site as often as I can.
+										whom have become dear friends.
 									</p>
 								</div>
 								<div className="picContainer">
@@ -148,6 +141,14 @@ const About = () => {
 										</div>
 									</div>
 								</div>
+							</div>
+							<div className="intro_2 sandwichedText">
+								<p className="pastEmployment">The efforts of Bridget & John Sandoval, Liz Phan, Regan Warner,
+									and Susan Sommerfeld have been instrumental to my development: professionally and personally.
+									I hope that you've enjoyed reading up to this point and I hope you've enjoyed getting to see a part
+									of my family and friends. I am thrilled to be able to share this site and the format, method,
+									and delivery of the content as it stands. I hope you check in from
+									time to time as I'll be updating the site as often as I can.</p>
 							</div>
 						</div>
 						<div className="intro_2 lastBioSection">
@@ -186,7 +187,7 @@ const About = () => {
 										<div className="picContainer">
 											<div className="card shadow-sm">
 												<img
-													src="https://www.dropbox.com/s/noz060p4jtq3f66/vicki.jpg?raw=1"
+													src="https://www.dropbox.com/s/noz060p4jtq3f66/vicki_3024x4032.jpg?raw=1"
 													className="img-fluid" loading="lazy"
 													alt="Responsive image"
 												/>

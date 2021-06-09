@@ -5,7 +5,7 @@ import Typewrite from "../Typewrite/Typewrite";
 import './Banner.scss';
 const Banner = () => {
 	const info = Object.seal({
-		author: 'Dustin',
+		author: 'Dustin:',
 		welcomeMsg: 'Hi There! I\'m ',
 		subMessage: 'And Welcome to the Compendium of my Interests, Work, & Accomplishments'
 	});

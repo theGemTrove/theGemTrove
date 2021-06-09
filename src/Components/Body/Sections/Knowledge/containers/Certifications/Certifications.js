@@ -10,7 +10,7 @@ const Certifications = () => {
 	const printCertificatesToScreen = certList => {
 		let certs = certList.map(cert => {
 			const { certLookupLink, certificationName, certIssuer, issueDate, credentialId } = cert;
-			return (<div className="cert">
+			return (<div className="cert" key={certLookupLink}>
 				<a href={certLookupLink}>
 					<FontAwesomeIcon icon={faFileCertificate} className="certificationIcon"/>
 				</a>

@@ -7,7 +7,7 @@ const AlmaMaters = () => {
 		const schoolList = require('./AlmaMaters.seed.json');
 		const almaMaters = schoolList.map(school => {
 			const {name, slink, gradYear, degreeType, focus} = school;
-			return (<div className="schoolContainer">
+			return (<div className="schoolContainer" key={slink}>
 				<h3 className="schoolName">
 					{name}
 				</h3>

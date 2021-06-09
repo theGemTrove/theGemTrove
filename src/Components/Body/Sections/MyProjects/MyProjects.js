@@ -18,7 +18,7 @@ const MyProjects = () => {
 		);
 	}
 	return (
-		<section id="recentProjects" className="container-fluid">
+		<section id="recentProjects">
 			<article className="container projectStyleAnchor">
 				<div className="projectHeaderContent">
 					<h2 className="project__header">Recent Projects</h2>

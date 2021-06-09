@@ -40,14 +40,14 @@ if (isProd) {
 // Non-Env Dependent Plugins
 listOfPlugins.push(new CleanWebpackPlugin());
 listOfPlugins.push(new HtmlWebpackPlugin({
-	'application-name': 'The Gem Trove',
+	'application-name': 'The GemTrove',
 	author: 'Dustin K Greco',
-	description: 'Dustin K Greco - The Gem Trove Portfolio Personal Website',
+	description: 'Dustin K Greco - The GemTrove Portfolio Personal Website',
 	favicon: 'favicon.ico',
 	generator: 'NodeJS,Express,ReactJS',
-	keywords: 'The Gem Trove, Dustin K Greco, Greco Portfolio, MERN Stack Developer',
+	keywords: 'The GemTrove, Dustin K Greco, Greco Portfolio, MERN Stack Developer',
 	template: 'theGemTrove.ejs',
-	title: 'The Gem Trove'
+	title: 'The GemTrove'
 }));
 
 module.exports = {
