@@ -14,8 +14,11 @@ const Connecting = () => {
 					<p className="whyGemTrove_lead getInTouchParagraph">Do have an idea you'd like to collaborate on?</p>
 					<p className="whyGemTrove getInTouchParagraph">Or alternatively,</p>
 					<p className="whyGemTrove getInTouchParagraph">Would you like to know more about me or perhaps have a chat?</p>
-					<p className="whyGemTrove getInTouchParagraph">Below you'll find links to my recent projects, and more information about my
-						past employment, & education.</p>
+					<p className="whyGemTrove getInTouchParagraph">Below you'll find links to my recent projects,
+						and more information about my education.</p>
+					<p className="whyGemTrove getInTouchParagraph">For information about my previous employment,
+						you'll just have to...dig. (ha-ha)...
+					</p>
 					<p className="whyGemTrove getInTouchParagraph">Here are some ways you can get in touch with me:</p>
 					<ul className="contactMethodList">
 						<li className="contactMethods">-Send Me An Email</li>
