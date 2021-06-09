@@ -4,8 +4,10 @@ import { faGem } from '@fortawesome/pro-duotone-svg-icons';
 import './MyProjects.scss';
 
 const MyProjects = () => {
+	const alertMessage = () => {
+		return alert('Check Back Soon! This Project Will Be Available Once I\'ve Finished It!');
+	};
 	const generateGem = () => {
-
 		return (
 			<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
 				<div className="project">
@@ -46,10 +48,13 @@ const MyProjects = () => {
 						</div>
 						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
 							<div className="project">
-								<a href="https://www.google.com" className="gemLink">
+								<p className="gemLink langDesc-disabled" data-toggle="tooltip" data-placement="top"
+									 title="Check Back! This Project Will Be Available Just As Soon As I've Finished It!"
+									onClick={alertMessage}
+								>
 									Metrics
 									<FontAwesomeIcon icon={faGem} className="projectGem metricsGem"/>
-								</a>
+								</p>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">

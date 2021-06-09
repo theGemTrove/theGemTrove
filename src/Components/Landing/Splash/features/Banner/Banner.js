@@ -5,14 +5,17 @@ import Typewrite from "../Typewrite/Typewrite";
 import './Banner.scss';
 const Banner = () => {
 	const info = Object.seal({
-		author: 'Dustin:',
-		welcomeMsg: 'Hi There! I\'m ',
+		author: 'I\'m Dustin',
+		welcomeMsg: 'Hi There!',
 		subMessage: 'And Welcome to the Compendium of my Interests, Work, & Accomplishments'
 	});
 	return (
 		<div className="banner">
 			<h2 className="welcomeFromAuthor">
-				{`${info.welcomeMsg}${info.author}`}
+				{`${info.welcomeMsg}`}
+			</h2>
+			<h2 className="welcomeFromAuthor">
+				{`${info.author}`}
 			</h2>
 			<CoruscatingGem />
 			<Typewrite />

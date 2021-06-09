@@ -193,7 +193,6 @@
   /*Hide Navigation & Remove Sidebar Buffers*/
   div.navbar,
   nav.navigation,
-  .Typewriter,
   .foxMinesGems,
   .aboutArticle_Header,
   .aboutMe_panel {
@@ -204,9 +203,13 @@
   .brand {
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
   }
   .welcomeFromAuthor {
     font-weight: bolder;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
   }
   .banner-heading {
     font-size: 4.25rem!important;
@@ -226,6 +229,10 @@
   }
   .landing-subheader {
     white-space: unset;
+  }
+  .typewriterStyle {
+    font-size: 5rem;
+    margin-bottom: 3rem;
   }
 
    // Needs Review And Cleaning
