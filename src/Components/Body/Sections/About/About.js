@@ -125,6 +125,8 @@ const About = () => {
 								</div>
 								<div className="intro_2 sandwichedText">
 									<p className="pastEmployment centerContent">
+										Beyond technology and baking, I love camping, eating chocolate, star-gazing, and gardening.
+										I also sometimes make soap...
 										Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
 										whom have become dear friends.
 									</p>

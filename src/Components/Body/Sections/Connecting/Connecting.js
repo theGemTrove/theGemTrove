@@ -44,7 +44,7 @@ const Connecting = () => {
 							</p>
 						</address>
 					</div>
-					<p className="whyGemTrove getInTouchParagraph">I look forward to your message!</p>
+					<p className="whyGemTrove getInTouchParagraph outreach">I look forward to your outreach!</p>
 				</div>
 			</article>
 		</section>

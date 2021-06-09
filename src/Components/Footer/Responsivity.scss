@@ -1,4 +1,136 @@
-@media screen and (min-width: 1366px) and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .brand {
+    width: 20%;
+  }
+  .welcomeFromAuthor {
+    font-size: 8rem;
+    padding: 0;
+  }
+  .typewriterStyle {
+    font-size: 8rem;
+  }
+  .banner-heading {
+    width: 75%;
+  }
+  .creatorPortrait__container {
+    width: 25%;
+    margin: 0 43%;
+  }
+  .welcome {
+    padding: unset;
+  }
+  .creatorIntroduction {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .centerContent {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .blurb {
+    font-size: 2.9rem;
+  }
+  .vickiImg {
+    margin: 0 auto;
+    width: 75%;
+  }
+  #contact,
+  #recentProjects,
+  #employment {
+    margin-left: 10rem;
+  }
+  .contactMethodList {
+    width: 35%;
+    margin: 2rem auto;
+  }
+  .contactMethods {
+    color: white;
+    font-family: 'Josephin Slab', sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    list-style-type: none;
+    text-align: left;
+  }
+  .closingMessage {
+    justify-content: space-evenly;
+  }
+  .getInTouchParagraph {
+    margin: 0 auto;
+    width: 75%;
+  }
+  .outreach {
+    margin-bottom: 2.5rem;
+  }
+  .employmentHeading {
+    font-size: 5rem;
+  }
+  .left_sidePanel {
+    width: 100%;
+  }
+  .almaMaters {
+    width: 48%;
+  }
+  .techIndustry__certs {
+    padding-right: 7rem;
+  }
+  .readingPanel {
+    margin: 0 auto;
+    width: 93%;
+  }
+  // Footer Elements
+  footer {
+    margin-left: 10rem;
+  }
+  .gemTroveButton {
+    text-align: center;
+  }
+  .gemTroveButton__label {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .theGemTrove__Explanation {
+    font-size: 3.5rem;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  .theGemTrove__ExplanationParagraph {
+    font-size: 2.15rem;
+    letter-spacing: .1em;
+    line-height: 5rem;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    width: 70%;
+  }
+  #thankYou__footer>p {
+    margin: 0;
+    text-align: center;
+  }
+  .thanks {
+    font-size: 5rem;
+  }
+  .bestWishes {
+    font-size: 4rem;
+  }
+  .theCreator {
+    font-size: 3rem;
+  }
+
+  .expGemList,
+  .expChildhood,
+  .expTeenToToday,
+  .expLapidaries,
+  .expClosingStatement {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .explanationBody {
+    margin: 0 0 2rem 10rem;
+    width: 100%;
+    font-size: 2.45rem;
+  }
+
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
   // Splash Page
   .brand {
     width: 30%;
@@ -182,7 +314,6 @@
     width: 100%;
     font-size: 2.45rem;
   }
-
 };
 @media screen and (min-width: 360px) and (max-width: 1365px) {
   // Page Specific Changes
@@ -212,7 +343,7 @@
     padding: 0;
   }
   .banner-heading {
-    font-size: 4.25rem!important;
+    font-size: 3.5rem!important;
     padding: 0 1rem;
   }
   .header,
