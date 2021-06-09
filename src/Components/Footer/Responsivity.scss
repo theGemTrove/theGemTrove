@@ -178,6 +178,7 @@
   }
 
 };
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
   // Page Specific Changes
   html {
@@ -262,7 +263,7 @@
   .creatorPortrait {
     margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 65%;
+    width: 60%!important;
   }
   .siteCreatorStamp {
     font-size: 3.5rem;
