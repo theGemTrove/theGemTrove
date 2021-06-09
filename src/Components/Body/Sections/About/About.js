@@ -5,9 +5,9 @@ const About = () => {
 		<section id="about">
 			<article className="aboutArticle aboutAnchor">
 				<h3 className="project__header getInTouch aboutMeHeader">About Me</h3>
-				<div className="creatorPortrait">
+				<div className="creatorPortrait__container">
 					<img src="https://www.dropbox.com/s/ruigygov3fmc10v/dustin.jpg?raw=1"
-							 alt="Image Of Dustin" className="img-fluid creatorPortrait" loading="lazy"
+							 alt="Image Of Dustin K Greco" className="creatorPortrait" loading="lazy"
 					/>
 				</div>
 				<div className="creatorIntroduction">

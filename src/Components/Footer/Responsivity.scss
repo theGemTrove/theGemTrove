@@ -31,8 +31,13 @@
   .creatorIntroduction {
     width: 100%;
   }
+  .creatorPortrait__container {
+    margin: 0 auto;
+    width: 50%;
+  }
   .creatorPortrait {
-    width: 40%;
+    margin: 1rem auto;
+    width: 100%!important;
   }
   .pseudoExplanation {
     padding: 5rem 5rem 0;
@@ -89,6 +94,7 @@
   // Education
   .almaMaters {
     width: 47%;
+    border-right: none;
   }
   .almaMaterHeader,
   .industryCertHeader,
@@ -178,8 +184,7 @@
   }
 
 };
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 1365px) {
   // Page Specific Changes
   html {
     overflow-x: hidden;
@@ -260,10 +265,13 @@
     width: 100%;
     margin: 0 auto;
   }
+  .creatorPortrait__container {
+    margin: 0 auto;
+    width: 50%;
+  }
   .creatorPortrait {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    width: 60%!important;
+    margin: 1rem auto;
+    width: 100%!important;
   }
   .siteCreatorStamp {
     font-size: 3.5rem;
