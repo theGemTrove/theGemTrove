@@ -17,7 +17,7 @@ const Connecting = () => {
 					<p className="whyGemTrove getInTouchParagraph">Below you'll find links to my recent projects,
 						and more information about my education.</p>
 					<p className="whyGemTrove getInTouchParagraph">For information about my previous employment,
-						you'll just have to...dig. (ha-ha)...
+						you'll just have to...dig..... (ha-ha [terrible joke, and the secret is to check out the site on desktop!])
 					</p>
 					<p className="whyGemTrove getInTouchParagraph">Here are some ways you can get in touch with me:</p>
 					<ul className="contactMethodList">
