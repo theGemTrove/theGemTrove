@@ -34,7 +34,7 @@ const Experience = () => {
 													onClick={toggleLoader} id="theGemTrove" value="theGemTrove"
 													data-toggle="collapse" data-target="#influx_collapse"
 													aria-expanded="false" aria-controls="influx_collapse">
-										The Gem Trove
+										The GemTrove
 									</button>
 								</p>
 								<p>
@@ -95,7 +95,7 @@ const Experience = () => {
 						<div>
 							<section id="influx" className="current_employment">
 								<hgroup>
-									<h3 className="companyName">The Gem Trove</h3>
+									<h3 className="companyName">The GemTrove</h3>
 									<h4 className="jobRole">Role:<br/><span className="blink jtitle">FullStack MERN Developer</span>
 									</h4>
 									<h4 className="detailContent">My own personal freelancing work and services.</h4>

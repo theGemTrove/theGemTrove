@@ -59,7 +59,7 @@ const MyProjects = () => {
 						</div>
 						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
 							<div className="project">
-								<a href="https://www.dropbox.com/home/tGT/HomeLab?preview=IMG_0219.jpg" className="gemLink">
+								<a href="https://app.photobucket.com/u/theGemTrove/a/6133af89-7f49-4875-af9d-9770e483f4a9?mode=slideshow" className="gemLink">
 									Home Lab
 									<FontAwesomeIcon icon={faGem} className="projectGem homeLabGem"/>
 								</a>

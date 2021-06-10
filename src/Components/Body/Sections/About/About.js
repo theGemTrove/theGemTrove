@@ -15,7 +15,7 @@ const About = () => {
 						Please allow me to welcome you to my website!
 					</p>
 					<p className="aboutMe aboutMeParagraph">
-						My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with over a decade of
+						My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with nearly a decade of
 						experience in building applications, reports, and programs in various languages through a multitude
 						of tools both open-source and proprietary. This site is meant to house the culmination of my
 						knowledge and abilities.
@@ -24,7 +24,7 @@ const About = () => {
 						Now, you may be wondering...
 					</p>
 					<p className="whyGemTrove aboutMeParagraph">
-						Why "The Gem Trove"?
+						Why "The GemTrove"?
 					</p>
 					<p className="pseudoExplanation aboutMeParagraph">
 						Well...read on! Perhaps you'll intuit why before I can tell you, but...

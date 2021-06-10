@@ -31,7 +31,6 @@
 
 .contact__paragraph {
   font-size: 3rem;
-/*  font-family: 'Oswald', sans-serif;*/
   color: #fff;
   line-height: 2;
 }
@@ -44,4 +43,14 @@
 
 .closingMessage {
   display: flex;
+}
+
+.githubContact {
+  position: relative;
+  z-index: 1000;
+}
+
+.contactContainer {
+  position: relative;
+  z-index: 1000;
 }
