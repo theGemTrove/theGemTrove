@@ -59,9 +59,3 @@ const Connecting = () => {
 };
 
 export default Connecting;
-
-/*
-				<div className="burmecia">
-					<div className="rain front-row"> </div>
-					<div className="rain back-row"> </div>
-				</div>*/
