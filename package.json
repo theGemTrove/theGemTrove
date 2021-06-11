@@ -8,16 +8,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "autoTagGit": "git tag $PACKAGE_VERSION && git push --tags",
     "build:babel": "babel src/App/App.js --out-file=public/scripts/app.js --presets=env,react",
     "build:webpack": "webpack",
-    "bumpVersion": "VERSION=$(npm version patch)",
+    "bumpVersion": "VERSION=$(npm version patch) && git tag $VERSION && git push --tags",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "NODE_ENV=development webpack serve",
-    "getVersion": "echo $(VERSION)",
     "heroku-postbuild": "yarn run bundle:prod",
     "live-reload": "live-server dist",
-    "publish": "yarn run bumpVersion && yarn run getVersion | echo $PACKAGE_VERSION",
+    "publish": "yarn run bumpVersion && yarn run heroku-postbuild && git push heroku main",
     "start": "node server/server.js",
     "watch": "nodemon server/server.js",
     "watch:webpack": "webpack --watch"
