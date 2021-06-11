@@ -1,6 +1,5 @@
 const
 	path 			  = require('path'),
-	webpack			= require('webpack'),
 	isProd			= process.env.NODE_ENV === 'production',
 	compileMode = isProd ? 'production' : 'development',
 	entry				= './src/App/App.js',
@@ -10,7 +9,8 @@ const
 	{
 		CleanWebpackPlugin
 	} = require('clean-webpack-plugin'),
-	HtmlWebpackPlugin	= require('html-webpack-plugin');
+	HtmlWebpackPlugin	= require('html-webpack-plugin'),
+	appVersion = require('./package.json').version;
 
 // Plugins
 const listOfPlugins = [];
@@ -41,6 +41,7 @@ if (isProd) {
 listOfPlugins.push(new CleanWebpackPlugin());
 listOfPlugins.push(new HtmlWebpackPlugin({
 	'application-name': 'The GemTrove',
+	'application-version': appVersion,
 	author: 'Dustin K Greco',
 	description: 'Dustin K Greco - The GemTrove Portfolio Personal Website',
 	favicon: 'favicon.ico',
