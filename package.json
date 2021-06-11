@@ -10,7 +10,7 @@
   "scripts": {
     "build:babel": "babel src/App/App.js --out-file=public/scripts/app.js --presets=env,react",
     "build:webpack": "webpack",
-    "bumpVersion": "VERSION=$(npm version patch) && git tag $VERSION && git push --tags",
+    "bumpVersion": "VERSION=$(npm version patch) && git tag $(VERSION) && git push --tags",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "NODE_ENV=development webpack serve",
     "heroku-postbuild": "yarn run bundle:prod",
