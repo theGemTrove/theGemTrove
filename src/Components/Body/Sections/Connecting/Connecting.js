@@ -1,18 +1,14 @@
 ;'use strict';
-import React, { useLayoutEffect } from 'react';
-import makeItRain from './makeItRain';
-import './makeItRain.scss';
+import React /*, { useLayoutEffect }*/ from 'react';
+//import makeItRain from './makeItRain';
+//import './makeItRain.scss';
 
 import './Connecting.scss';
 const Connecting = () => {
-	useLayoutEffect(() => { makeItRain(); })
+	//useLayoutEffect(() => { makeItRain(); })
 	return (
 		<section id="contact">
 			<article>
-				<div className="burmecia">
-					<div className="rain front-row"> </div>
-					<div className="rain back-row"> </div>
-				</div>
 				<div className="contactDiv">
 					<h3 className="project__header getInTouch">Get In Touch</h3>
 					<p className="whyGemTrove_lead getInTouchParagraph">Do have an idea you'd like to collaborate on?</p>
