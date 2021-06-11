@@ -5,13 +5,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/pro-light-svg-icons';
 
 import './Sidebar.scss';
-
+const packageVersion = require('../../../../../package.json').version;
 const Sidebar = () => {
 	const info = Object.freeze({
 		link_GitHub: "https://github.com/theGemTrove",
 		link_Email: "mailto:dkgreco@thegemtrove.tech",
 		currentYear: new Date(),
-
+		packageVersion
 	})
 	return (
 		<div className="navbar">
@@ -37,7 +37,7 @@ const Sidebar = () => {
 				</ul>
 				<div className="year">
 					<p>&#174; 2020-{info.currentYear.getFullYear()}</p>
-					<p>{}</p>
+					<p>v.{info.packageVersion}</p>
 				</div>
 			</div>
 		</div>
