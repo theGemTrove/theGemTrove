@@ -3,7 +3,7 @@
   "repository": "git@github.com:theGemTrove/theGemTrove.git",
   "author": "Dustin K Greco <dkgreco@thegemtrove.tech>",
   "description": "Personal Website Presence For DKG",
-  "version": "1.21.16",
+  "version": "1.21.17",
   "main": "server.js",
   "license": "MIT",
   "private": true,
