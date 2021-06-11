@@ -14,9 +14,10 @@
     "bumpVersion": "npm version patch && autoTagGit",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "NODE_ENV=development webpack serve",
+    "getVersion": "PACKAGE_VERSION=$(cat package.json \\\n  | grep version \\\n  | head -1 \\\n  | awk -F: '{ print $2 }' \\\n  | sed 's/[\",]//g' \\\n  | tr -d '[[:space:]]')\n\n",
     "heroku-postbuild": "yarn run bundle:prod",
     "live-reload": "live-server dist",
-    "publish": "yarn run bumpVersion && yarn run heroku-postbuild",
+    "publish": "yarn run bumpVersion && yarn run getVersion | echo $PACKAGE_VERSION",
     "start": "node server/server.js",
     "watch": "nodemon server/server.js",
     "watch:webpack": "webpack --watch"
