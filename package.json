@@ -14,7 +14,7 @@
     "bumpVersion": "VERSION=$(npm version patch)",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "NODE_ENV=development webpack serve",
-    "getVersion": "PACKAGE_VERSION=$(cat package.json \\\n  | grep version \\\n  | head -1 \\\n  | awk -F: '{ print $2 }' \\\n  | sed 's/[\",]//g' \\\n  | tr -d '[[:space:]]')\n\n",
+    "getVersion": "echo $(VERSION)",
     "heroku-postbuild": "yarn run bundle:prod",
     "live-reload": "live-server dist",
     "publish": "yarn run bumpVersion && yarn run getVersion | echo $PACKAGE_VERSION",
