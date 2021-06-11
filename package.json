@@ -11,7 +11,7 @@
     "autoTagGit": "git tag $PACKAGE_VERSION && git push --tags",
     "build:babel": "babel src/App/App.js --out-file=public/scripts/app.js --presets=env,react",
     "build:webpack": "webpack",
-    "bumpVersion": "npm version patch && autoTagGit",
+    "bumpVersion": "npm version patch",
     "bundle:prod": "NODE_ENV=production webpack",
     "dev-server": "NODE_ENV=development webpack serve",
     "getVersion": "PACKAGE_VERSION=$(cat package.json \\\n  | grep version \\\n  | head -1 \\\n  | awk -F: '{ print $2 }' \\\n  | sed 's/[\",]//g' \\\n  | tr -d '[[:space:]]')\n\n",
