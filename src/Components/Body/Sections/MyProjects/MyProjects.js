@@ -48,13 +48,10 @@ const MyProjects = () => {
 						</div>
 						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
 							<div className="project">
-								<p className="gemLink langDesc-disabled" data-toggle="tooltip" data-placement="top"
-									 title="Check Back! This Project Will Be Available Just As Soon As I've Finished It!"
-									onClick={alertMessage}
-								>
-									Metrics
-									<FontAwesomeIcon icon={faGem} className="projectGem metricsGem"/>
-								</p>
+								<a href="http://143.198.143.111" className="gemLink">
+									API Trove
+									<FontAwesomeIcon icon={faGem} className="projectGem apiGem"/>
+								</a>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
@@ -63,6 +60,17 @@ const MyProjects = () => {
 									Home Lab
 									<FontAwesomeIcon icon={faGem} className="projectGem homeLabGem"/>
 								</a>
+							</div>
+						</div>
+						<div className="col-xl-3 col-md-4 col-sm-6 col-xs-12">
+							<div className="project">
+								<p className="gemLink langDesc-disabled" data-toggle="tooltip" data-placement="top"
+									 title="Check Back! This Project Will Be Available Just As Soon As I've Finished It!"
+									 onClick={alertMessage}
+								>
+									Metrics
+									<FontAwesomeIcon icon={faGem} className="projectGem metricsGem"/>
+								</p>
 							</div>
 						</div>
 					</div>
