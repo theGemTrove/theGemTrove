@@ -7,4 +7,4 @@ Being Created By Vince O.
 - [Registration/Signup Chart](https://my.visme.co/view/768eyn3y-registration-pen-test-100)
 
 ### The GemTrove API Library
-[tGT API Library](http://api-library-thegemtrove.tech)
+[API Library](http://api-library-thegemtrove.tech)
