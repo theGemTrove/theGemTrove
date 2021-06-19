@@ -463,20 +463,15 @@
   }
 
   // Recent Projects
-  #recentProjects {
-    display: inline-flex !important;
+  .sectionTitle {
+    font-size: 6rem;
   }
-  .project__header {
-    font-size: 5rem;
+  .sectionSubInfo {
+    font-size: 3.25rem;
   }
-  .projectHeaderContent > h3 {
-    padding: 2rem .5rem;
-  }
-  .project__subHeader {
-    font-size: 2.75rem;
-  }
-  .projectStyleAnchor {
-    border-radius: 0;
+  .projectBonus {
+    padding-top: 3rem;
+    white-space: break-spaces;
   }
 
   // Employment
@@ -591,9 +586,7 @@
     width: 100%;
     font-size: 2.45rem;
   }
-  .gemContainer {
-    width: 30%;
-  }
+
   .gemLink {
     font-size: 3rem;
   }
