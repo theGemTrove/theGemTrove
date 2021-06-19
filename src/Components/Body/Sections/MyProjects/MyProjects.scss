@@ -1,221 +1,45 @@
-.project {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 0;
+.recentProjectsSection {
+  background: linear-gradient(to right, #000, #111);
 }
-
-.projectStyleAnchor {
-  background: url("https://www.dropbox.com/s/g7hobw3vlyql7tq/largeCrystalCavern.jpg?raw=1") no-repeat;
-  background-size: cover;
-  min-height: 100rem;
-  height: 100%;
-  border-radius: 30px;
-}
-
-.projectGem {
-  z-index: 3;
-  cursor: pointer;
-  color: white;
-  font-size: 12rem;
-  mix-blend-mode: color-dodge;
-}
-
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem g.fa-group path.fa-primary {
-  color: whitesmoke;
-}
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem g.fa-group path.fa-secondary {
-  color: whitesmoke;
-}
-
-.projectShell {
-  padding-bottom: 10rem;
-}
-
-.overlay {
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-}
-
-.project__header {
-  color: #fff;
-  font-family: "Amatic SC", sans-serif;
-  font-size: 8rem;
-}
-
-.projectsContainer {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.project__subHeader {
-  font-size: 3rem;
-  color: #dddddd;
-}
-
-.projectHeaderContent {
-  padding-top: 6rem;
-}
-
-.projectHeaderContent > h2,
-.projectHeaderContent > h3 {
-  background: rgba(0, 0, 0, .75);
+.sectionTitle {
   border-top: 1px solid white;
-  margin: 0 auto;
-  text-align: center;
-  width: 60%;
+  border-bottom: 1px solid white;
+  font-size: 8rem;
+  margin-top: 8rem;
 }
-
-.projectHeaderContent > h3 {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-family: Oswald, sans-serif;
-  padding: 2rem 0;
-  margin-bottom: 4rem;
+.sectionSubInfo {
+  font-size: 5rem;
+  padding: 2rem 0 4rem 0;
 }
-
-.project_description {
-  display: flex;
-  font-size: 1.25em;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+.projectBonus {
+  white-space: nowrap;
 }
-
-.project_description a {
-  font-size: 2rem;
-  color: #fff;
-  text-decoration: none;
+.sectionTitle,
+.sectionSubInfo {
+  color: #eee;
+  text-align: center
 }
-
-.projectContainer {
-  display: flex;
-  background: rgba(0, 0, 0, .8);
-  border-radius: 20px;
-  justify-content: space-evenly;
-  padding: 2rem 0;
+.crystal {
+  cursor: pointer;
+  height: 20rem;
 }
-
-.projectName {
-  color: white;
+.crystal-card-title {
+  border-bottom: 1px solid black;
   font-size: 3rem;
+  font-weight: bolder;
   text-align: center;
 }
-
-.svg-inline--fa.fa-fw.projectGem {
-  width: unset;
-}
-
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.metrics g.fa-group path.fa-primary {
-  color: aqua;
-  opacity: .65;
-}
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.metrics g.fa-group path.fa-secondary {
-  color: aqua;
-  opacity: .9;
-}
-
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.metrics g.fa-group path.fa-primary {
-  color: aqua;
-  opacity: .65;
-}
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.metrics g.fa-group path.fa-secondary {
-  color: aqua;
-  opacity: .9;
-}
-
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.igleague g.fa-group path.fa-primary {
-  color: red;
-  opacity: .65;
-}
-svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.projectGem.igleague g.fa-group path.fa-secondary {
-  color: red;
-  opacity: .9;
-}
-
-//#BD5091
-
-section#recentProjects.container-fluid article.container.projectStyleAnchor div.projectContainer div.gemContainer svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.gem {
-  background: black;
-  height: 30%;
-}
-
-section#recentProjects.container-fluid article.container.projectStyleAnchor div.projectContainer div.gemContainer svg.svg-inline--fa.fa-gem.fa-w-18.fa-fw.gem g.fa-group {
-  color: white;
-}
-
-.gemContainer {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.gemLink {
-  align-items: center;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  font-size: 4rem;
+.crystal-card-body {
   text-align: center;
 }
-
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.apiGem g.fa-group path.fa-primary,
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.apiGem g.fa-group path.fa-secondary {
-  color: rgba(189, 80, 145);
-  opacity: .9;
+.crystal-card-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.25rem!important;
 }
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.metricsGem g.fa-group path.fa-primary {
-  opacity: .75;
+.crystal-card-button {
+  font-size: 2.75rem;
+  font-weight: bolder;
 }
-
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.metricsGem g.fa-group path.fa-primary,
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.metricsGem g.fa-group path.fa-secondary {
-  color: rgba(200, 75, 200);
-  opacity: .9;
-}
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.metricsGem g.fa-group path.fa-primary {
-  opacity: .75;
-}
-
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.igleagueGem g.fa-group path.fa-primary,
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.igleagueGem g.fa-group path.fa-secondary {
-  color: rgba(200, 100, 50);
-  opacity: .9;
-}
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.igleagueGem g.fa-group path.fa-primary {
-  opacity: .75;
-}
-
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.bashGem g.fa-group path.fa-primary,
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.bashGem g.fa-group path.fa-secondary {
-  color: rgba(100, 200, 50);
-  opacity: .9;
-}
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.bashGem g.fa-group path.fa-primary {
-  opacity: .75;
-}
-
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.homeLabGem g.fa-group path.fa-primary,
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.homeLabGem g.fa-group path.fa-secondary {
-  color: rgba(0, 100, 250);
-  opacity: .9;
-}
-div.project a.gemLink svg.svg-inline--fa.fa-gem.fa-w-18.projectGem.homeLabGem g.fa-group path.fa-primary {
-  opacity: .75;
-}
-
-div.project a.gemLink {
-  color: white;
-}
-
-.projectColumnContainer {
-  display: flex;
-  background: rgba(0, 0, 0, .85);
-}
-
-.gemRow {
-  background: rgba(0, 0, 0, .75);
+.crystal-row {
+  padding-bottom: 4rem;
 }
