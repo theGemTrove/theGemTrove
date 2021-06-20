@@ -9,45 +9,52 @@ const Connecting = () => {
 	return (
 		<section id="contact">
 			<article>
-				<div className="contactDiv">
-					<h3 className="project__header getInTouch">Get In Touch</h3>
-					<p className="whyGemTrove_lead getInTouchParagraph">Do have an idea you'd like to collaborate on?</p>
-					<p className="whyGemTrove getInTouchParagraph">Or alternatively,</p>
-					<p className="whyGemTrove getInTouchParagraph">Would you like to know more about me or perhaps have a chat?</p>
-					<p className="whyGemTrove getInTouchParagraph">Below you'll find links to my recent projects,
-						and more information about my education.</p>
-					<p className="whyGemTrove getInTouchParagraph">For information about my previous employment,
-						you'll just have to...dig..... (ha-ha [terrible joke, and the secret is to check out the site on desktop!])
-					</p>
-					<p className="whyGemTrove getInTouchParagraph">Here are some ways you can get in touch with me:</p>
-					<ul className="contactMethodList">
-						<li className="contactMethods">-Send Me An Email</li>
-						<li className="contactMethods">-Send Me A Text Message</li>
-						<li className="contactMethods">-Call Me</li>
-					</ul>
-					<p className="whyGemTrove getInTouchParagraph githubContact">
-						There's also my <a href="https://github.com/theGemTrove" className="githubLink">GitHub</a>{' '}Account!!
-					</p>
-					<div className="sectionFooter contactContainer">
-						<address className="contact__paragraph closingMessage">
-							<p className="contactMethods">Email:{' '}
-								<span className="hardContact">
+				<h3 className="sectionTitle">Contact Me</h3>
+				<div className="contactPanel">
+					<div className="contactSection">
+						<p className="contactParagraph">Do have an idea you'd like to collaborate on?</p>
+						<p className="contactParagraph">Or alternatively,</p>
+						<p className="contactParagraph">Would you like to know more about me or perhaps have a chat?</p>
+						<p className="contactParagraph">
+							Below you'll find links to my recent projects, and more information about my education.
+						</p>
+						<p className="contactParagraph">
+							For information about my previous employment, please visit this site on desktop. I will implement
+							a mobile version soon!
+						</p>
+					</div>
+					<div className="contactSection">
+						<p className="contactParagraph">
+							Here are some ways to get in touch with me!
+						</p>
+						<p className="contactParagraph contacts_1">
+							First, there's my <a href="https://github.com/theGemTrove" className="githubLink">GitHub</a>{' '}Account:
+							please consider giving it a follow.
+						</p>
+						<p className="contactParagraph">Looking for something more direct?</p>
+						<p className="contacts_2">Is It An <span className="halp">Emergency?</span></p>
+						<p className="contacts_2">Call Me; Otherwise there's also:</p>
+						<div className="contactSubContainer">
+								<address className="contact__paragraph closingMessage">
+									<p className="contactMethods">Email:{' '}
+										<span className="hardContact">
 									<a href="mailto:dkgreco@thegemtrove.tech">
 										dkgreco@thegemtrove.tech
 									</a>
 								</span>
-							</p>
-							<p className="contactMethods">
-								Phone:{' '}
-								<span className="hardContact">
+									</p>
+									<p className="contactMethods">
+										Phone:{' '}
+										<span className="hardContact">
 									<a href="tel:+1928-457-0764">
 										+1 (928) 457-0764
 									</a>
 								</span>
-							</p>
-						</address>
+										<span className="small">{' '}- Text Meh!</span>
+									</p>
+								</address>
+							</div>
 					</div>
-					<p className="whyGemTrove getInTouchParagraph outreach">I look forward to your outreach!</p>
 				</div>
 			</article>
 		</section>

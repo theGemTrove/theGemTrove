@@ -1,56 +1,37 @@
-.contactArticle {
-  display: inline-flex;
-}
-
-.getInTouch {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.getInTouch__header {
-  color: #fff;
-  font-family: "Amatic SC", sans-serif;
-  font-size: 8rem;
-  padding: 4% 0 0 0;
-  text-align: center;
-}
-
-/*.getInTouch {
-  position: relative;
-}*/
-
-.contactSectionPanel {
-  margin: 6rem auto;
-  font-family: 'Josefin Slab', serif;
-}
-
-.contact__Blurb {
-  text-align: center;
-  margin-bottom: 8rem;
-}
-
-.contact__paragraph {
-  font-size: 3rem;
-  color: #fff;
-  line-height: 2;
-}
-
-.contactMethod {
-  width: 40%;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.closingMessage {
+.contactPanel {
   display: flex;
 }
 
-.githubContact {
-  position: relative;
-  z-index: 1000;
+.contactSection {
+  padding: 4rem 6rem;
+  text-align: center;
+  width: 50%;
 }
 
-.contactContainer {
-  position: relative;
-  z-index: 1000;
+.contactParagraph {
+  font-size: 5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.contactSubContainer {
+  margin: 3rem auto;
+  width: 50%;
+}
+
+.contacts_1,
+.contacts_2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contacts_2 {
+  color: #fff;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.halp {
+  color: red;
 }

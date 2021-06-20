@@ -7,21 +7,32 @@ const MyProjects = () => {
 	const alertMessage = () => {
 		return alert('Check Back Soon! This Project Will Be Available Once I\'ve Finished It!');
 	};
-	const generateGemstoneEntries = () => {
+	const generateGemstoneEntries = projectList => {
+		const implementLater = (<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
+			<h2 className="crystalHeader">{projectList.projectName}</h2>
+			<div className="card">
+				<a href={projectList.gemlink}>
+					<img className="card-img-top img-fluid crystal" src={projectList.gemImgPath} alt={projectList.gemAltDesc}
+					loading="lazy"
+					/>
+				</a>
+				<div className="card-body crystal-card-body">
+					<h5 className="card-title crystal-card-title">{projectList.gemName}</h5>
+					<p className="card-text crystal-card-text">{projectList.projectDesc}</p>
+					<a href={projectList.projectlink} className="btn btn-primary crystal-card-button disabled">Show Me {projectList.projectName}</a>
+				</div>
+			</div>
+		</div>);
 		return null;
 	}
 	return (
 		<section id="recentProjects" className="recentProjectsSection">
-			<article className="container sectionArticle">
-				<div>
-					<h2 className="sectionTitle">Recent Projects</h2>
-					<h3 className="sectionSubInfo">
-						Click on any of the buttons below to be taken to a project!{' '}
-						<span className="projectBonus">If you want to know more about the crystal, click its picture!</span>
-					</h3>
-				</div>
-				<div className="row crystal-row">
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+			<article className="sectionArticle recentProjectSectionOverlay">
+				<h3 className="sectionTitle">Recent Projects</h3>
+				<h3 className="sectionSubheading">Click on any of the buttons below to be taken to a project!</h3>
+				<h3 className="sectionSubheading">If you want to know more about the crystal, click its picture!</h3>
+				<div className="row row-cols-lg-4 crystal-row">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">MongoDB</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/emerald">
@@ -34,20 +45,20 @@ const MyProjects = () => {
 								</div>
 						</div>
 					</div>
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">ExpressJS</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/tourmaline">
 								<img className="card-img-top img-fluid crystal" src="https://www.dropbox.com/s/1qpks4dnuno8tkp/watermelontourmaline.jpg?raw=1" alt="Card image cap" />
 							</a>
 							<div className="card-body crystal-card-body">
-								<h5 className="card-title crystal-card-title">Watermelon Tourmaline</h5>
+								<h5 className="card-title crystal-card-title">Tourmaline</h5>
 								<p className="card-text crystal-card-text">ExpressJS - Coming Soon</p>
 								<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me ExpressJS</a>
 							</div>
 						</div>
 					</div>
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">ReactJS/Redux</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/sapphire">
@@ -60,7 +71,7 @@ const MyProjects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">NodeJS</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/alexandrite">
@@ -75,7 +86,7 @@ const MyProjects = () => {
 					</div>
 				</div>
 				<div className="row crystal-row">
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">GemTrove API Library</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/aquamarine">
@@ -88,7 +99,7 @@ const MyProjects = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-sm-12 col-md-6 col-lg-3 smallDeviceResize">
+					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">IGLeague</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/ruby">

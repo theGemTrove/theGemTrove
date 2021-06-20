@@ -1,10 +1,11 @@
 import React from 'react';
+import MobileCarousel from "./MobileCarousel";
 import './About.scss';
 const About = () => {
 	return (
 		<section id="about">
-			<article className="aboutArticle aboutAnchor">
-				<h3 className="project__header getInTouch aboutMeHeader">About Me</h3>
+			<article className="aboutAnchor">
+				<h3 className="sectionTitle">About Me</h3>
 				<div className="creatorPortrait__container">
 					<img src="https://www.dropbox.com/s/ruigygov3fmc10v/dustin.jpg?raw=1"
 							 alt="Image Of Dustin K Greco" className="creatorPortrait" loading="lazy"
@@ -31,6 +32,7 @@ const About = () => {
 						if you're impatient, simply scroll down to the page footer for my personal answer.
 					</p>
 				</div>
+				<MobileCarousel />
 				<div className="aboutMe_panel">
 					<div className="aboutMe_textContainer">
 						<div className="accompanyingPhoto_Left setTextBuffer">
@@ -110,7 +112,7 @@ const About = () => {
 						</div>
 						<div className="photoSpread row">
 							<div className="familyAlbum">
-								<div className="picContainer">
+								<div className="picContainer familyRow">
 									<div className="card shadow-sm">
 										<img
 											src="https://www.dropbox.com/s/uwgqxf4yiu2fp8g/mister.png?raw=1"
@@ -119,19 +121,23 @@ const About = () => {
 										/>
 										<div className="mister familyPhotoDim img-fluid"/>
 										<div className="card-body">
-											<p className="card-text">Mister, requires more pampering than you'd think.</p>
+											<p className="card-text">Mister's Summoning Blanket.</p>
 										</div>
 									</div>
 								</div>
-								<div className="intro_2 sandwichedText">
-									<p className="pastEmployment centerContent">
-										Beyond technology and baking, I love camping, eating chocolate, star-gazing, and gardening.
-										I also sometimes make soap...
-										Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
-										whom have become dear friends.
-									</p>
+								<div className="picContainer familyRow">
+									<div className="card shadow-sm">
+										<img
+											src="https://www.dropbox.com/s/1zszy0hcjyecg1s/vicki_large.jpg?raw=1"
+											className="img-fluid" loading="lazy"
+											alt="Responsive image"
+										/>
+										<div className="card-body">
+											<p className="card-text">There's Vicki & Her Foster!</p>
+										</div>
+									</div>
 								</div>
-								<div className="picContainer">
+								<div className="picContainer familyRow">
 									<div className="card shadow-sm">
 										<img
 											src="https://www.dropbox.com/s/cypfgl8dyoiryxl/lou.jpg?raw=1"
@@ -139,13 +145,15 @@ const About = () => {
 											alt="Responsive image"
 										/>
 										<div className="card-body">
-											<p className="card-text">Louie tired of watching me work...dreaming of fetch.</p>
+											<p className="card-text">Louie...dreaming of fetch.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="intro_2 sandwichedText">
-								<p className="pastEmployment">The efforts of Bridget & John Sandoval, Liz Phan, Regan Warner,
+								<p className="pastEmployment thankyouFriends">
+									Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
+									whom have become dear friends. The efforts of Bridget & John Sandoval, Liz Phan, Regan Warner,
 									and Susan Sommerfeld have been instrumental to my development: professionally and personally.
 									I hope that you've enjoyed reading up to this point and I hope you've enjoyed getting to see a part
 									of my family and friends. I am thrilled to be able to share this site and the format, method,
@@ -154,7 +162,6 @@ const About = () => {
 							</div>
 						</div>
 						<div className="intro_2 lastBioSection">
-							<p className="finalMessage">Finally,</p>
 							<div className="finalBioSection">
 								<div className="accompanyingPhoto">
 									<div className="picContainer">
@@ -170,7 +177,8 @@ const About = () => {
 										</div>
 									</div>
 								</div>
-								<div className="thankYou">
+								<div className="thankYou finalGratitudes">
+									<p className="finalMessage">Finally,</p>
 									<p className="farewell">
 										As it cannot be overstated:
 									</p>
@@ -185,20 +193,6 @@ const About = () => {
 										<br/>
 										the visitor!
 									</p>
-									<div className="accompanyingPhoto vickiImg">
-										<div className="picContainer">
-											<div className="card shadow-sm">
-												<img
-													src="https://www.dropbox.com/s/noz060p4jtq3f66/vicki_3024x4032.jpg?raw=1"
-													className="img-fluid" loading="lazy"
-													alt="Responsive image"
-												/>
-												<div className="card-body">
-													<p className="card-text">Vicki's Newest Foster!!</p>
-												</div>
-											</div>
-										</div>
-									</div>
 								</div>
 								<div className="accompanyingPhoto">
 									<div className="picContainer">

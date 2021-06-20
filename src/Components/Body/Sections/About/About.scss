@@ -14,12 +14,7 @@ $resetToZero: 0;
   background-image: $background_ArizonaSunset_URL;
   background-repeat: no-repeat;
   background-size: $coverTheBackground;
-  margin-left: 8rem;
-}
-
-.aboutArticle {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-left: 10rem;
 }
 
 .aboutArticle_Header {
@@ -67,9 +62,6 @@ $resetToZero: 0;
   text-align: center;
 }
 
-.welcome {
-}
-
 .whyGemTrove,
 .whyGemTrove_lead {
   text-align: center;
@@ -78,7 +70,7 @@ $resetToZero: 0;
 .accompanyingPhoto,
 .accompanyingPhoto_Left,
 .accompanyingPhoto_Right {
-  width: 30%;
+  width: 25%;
 }
 
 .accompanyingPhoto_Left {
@@ -115,7 +107,8 @@ $resetToZero: 0;
 }
 
 .sandwichedText {
-  width: 500rem;
+  display: flex;
+  align-items: center;
 }
 
 .vickiImg {
@@ -166,4 +159,17 @@ $resetToZero: 0;
   border-radius: 100%;
   width: 50%;
   margin: 0 auto;
+}
+
+.thankyouFriends {
+  margin: 3rem 0;
+}
+
+.finalGratitudes {
+  align-self: center;
+}
+
+.familyRow {
+  padding: 2rem 8rem;
+  width: 75%;
 }

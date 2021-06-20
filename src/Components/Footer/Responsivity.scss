@@ -128,7 +128,6 @@
     width: 100%;
     font-size: 2.45rem;
   }
-
 }
 @media screen and (min-width: 1280px) and (max-width: 1919px) {
   // Splash Page
@@ -315,7 +314,816 @@
     font-size: 2.45rem;
   }
 };
-@media screen and (min-width: 360px) and (max-width: 1365px) {
+
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1279px) {
+  /*Hide Navigation & Remove Sidebar Buffers*/
+  div.navbar,
+  nav.navigation,
+  .foxMinesGems,
+  .aboutArticle_Header,
+  .aboutArticle_Header,
+  .aboutMe_panel {
+    display: none;
+  }
+
+  // Splash Page
+  .brand {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .welcomeFromAuthor {
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-heading {
+    font-size: 3.5rem!important;
+    padding: 0 1rem;
+  }
+  .header,
+  .aboutAnchor {
+    margin: 0;
+  };
+  .welcomeFromAuthor,
+  .banner-heading {
+    font-size: 5rem;
+  }
+  .brand,
+  .banner-heading {
+    width: 100%;
+  }
+  .landing-subheader {
+    white-space: unset;
+  }
+  .typewriterStyle {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  // Needs Review And Cleaning
+  .aboutMe,
+  .welcome,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    padding: 0;
+    font-size: 2.5rem;
+  }
+  .welcome,
+  .aboutMe,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    font-size: 2rem;
+  }
+
+  // About Me
+  .aboutArticle {
+    padding: 0;
+  }
+  .aboutMeHeader {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .aboutMeParagraph {
+    padding: 0 2rem!important;
+  }
+  .closingMessage {
+    flex-direction: column;
+  }
+  .creatorIntroduction {
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .creatorPortrait__container {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+  }
+  .creatorPortrait {
+    margin: 1rem auto;
+    width: 50%!important;
+  }
+  .siteCreatorStamp {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+  }
+  .carousel {
+    display: none;
+  }
+
+  // Get In Touch
+  .contactPanel {
+    flex-direction: column;
+  }
+  .contactSection {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  .contactParagraph {
+    font-size: 3.25rem;
+    line-height: revert;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    width: 90%;
+  }
+  .contacts_1,
+  .contacts_2 {
+    font-size: 2.25rem;
+  }
+
+  .contactSubContainer {
+    color: #eee;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    margin: 2rem auto;
+    width: 100%;
+  }
+
+  // Recent Projects
+  .sectionTitle {
+    font-size: 6rem !important;
+  }
+  .sectionSubheading {
+    font-size: 3.25rem !important;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .crystal-row {
+    width: 75%;
+  }
+  .smallDeviceResize {
+    margin: 0 auto 3rem auto;
+    width: 75%;
+  }
+
+  // Employment
+  #employment {
+    display: none;
+  }
+
+  // Education
+  .almaMaters,
+  .verifiedSkills {
+    width: 100% !important;
+  }
+  .almaMaterHeader,
+  .industryCertHeader {
+    font-size: 4rem;
+  }
+  .certificates {
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .hardEducation {
+    flex-direction: column;
+  }
+  .industryCertHeader {
+    margin-bottom: 2rem;
+  }
+  .knowledgeStyles {
+    margin-left: 0!important;
+  }
+  .schoolName,
+  .genIndustryHeading {
+    font-size: 2.75rem;
+  }
+  .degreeType,
+  .degreeFocus,
+  .certTitle {
+    font-size: 3.25rem;
+  }
+  .credentialID {
+    font-size: 2.75rem;
+  }
+  .svg-inline--fa.fa-w-16 {
+    width: .75em;
+  }
+  .svg-inline--fa.fa-w-20 {
+    width: 1em;
+  }
+
+  // Reading
+  .readingPanel {
+    flex-direction: column;
+    padding: 0;
+    width: 100%!important;
+  }
+  .booksListHeader {
+    font-size: 3.5rem!important;
+  }
+  li.bookEntry {
+    font-size: 3rem!important;
+  }
+  h4.bookListType {
+    font-size: 2.85rem!important;
+  }
+
+  // Footer Items
+  footer {
+    margin-left: 0;
+  }
+  .gemTroveButton {
+    text-align: center;
+  }
+  .gemTroveButton__label {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .theGemTrove__Explanation {
+    font-size: 2.35rem;
+    margin: 0 0 2rem 0;
+  }
+  .theGemTrove__ExplanationParagraph {
+    font-size: 1.8rem;
+    letter-spacing: .1em;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  #thankYou__footer>p {
+    margin: 0;
+    text-align: center;
+  }
+  .thanks {
+    font-size: 5rem;
+  }
+  .bestWishes {
+    font-size: 4rem;
+  }
+  .theCreator {
+    font-size: 3rem;
+  }
+
+  // Gem Specific Code
+  .expGemList,
+  .expChildhood,
+  .expTeenToToday,
+  .expLapidaries,
+  .expClosingStatement {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .explanationBody {
+    margin: 0 0 2rem 0;
+    width: 100%;
+    font-size: 2.45rem;
+  }
+
+  .gemLink {
+    font-size: 3rem;
+  }
+  .gemRow {
+    background: rgba(0, 0, 0, .3);
+  }
+};
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /*Hide Navigation & Remove Sidebar Buffers*/
+  div.navbar,
+  nav.navigation,
+  .foxMinesGems,
+  .aboutArticle_Header,
+  .aboutMe_panel {
+    display: none;
+  }
+
+  // Splash Page
+  .brand {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .welcomeFromAuthor {
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-heading {
+    font-size: 3.5rem!important;
+    padding: 0 1rem;
+  }
+  .header,
+  .aboutAnchor {
+    margin: 0;
+  };
+  .welcomeFromAuthor,
+  .banner-heading {
+    font-size: 5rem;
+  }
+  .brand,
+  .banner-heading {
+    width: 100%;
+  }
+  .landing-subheader {
+    white-space: unset;
+  }
+  .typewriterStyle {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  // Needs Review And Cleaning
+  .aboutMe,
+  .welcome,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    padding: 0;
+    font-size: 2.5rem;
+  }
+  .welcome,
+  .aboutMe,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    font-size: 2rem;
+  }
+
+  // About Me
+  .aboutArticle {
+    padding: 0;
+  }
+  .aboutMeHeader {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .aboutMeParagraph {
+    padding: 0 2rem!important;
+  }
+  .closingMessage {
+    flex-direction: column;
+  }
+  .creatorIntroduction {
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .creatorPortrait__container {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+  }
+  .creatorPortrait {
+    margin: 1rem auto;
+    width: 50%!important;
+  }
+  .siteCreatorStamp {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+  }
+  .carousel {
+    display: none;
+  }
+
+  // Get In Touch
+  .contactPanel {
+    flex-direction: column;
+  }
+  .contactSection {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  .contactParagraph {
+    font-size: 3.25rem;
+    line-height: revert;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    width: 90%;
+  }
+  .contacts_1,
+  .contacts_2 {
+    font-size: 2.25rem;
+  }
+
+  .contactSubContainer {
+    color: #eee;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    margin: 2rem auto;
+    width: 100%;
+  }
+
+  // Recent Projects
+  .sectionTitle {
+    font-size: 6rem !important;
+  }
+  .sectionSubheading {
+    font-size: 3.25rem !important;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .crystal-row {
+    width: 75%;
+  }
+  .smallDeviceResize {
+    margin: 0 auto 3rem auto;
+    width: 75%;
+  }
+
+  // Employment
+  #employment {
+    display: none;
+  }
+
+  // Education
+  .almaMaters,
+  .verifiedSkills {
+    width: 100% !important;
+  }
+  .almaMaterHeader,
+  .industryCertHeader {
+    font-size: 4rem;
+  }
+  .certificates {
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .hardEducation {
+    flex-direction: column;
+  }
+  .industryCertHeader {
+    margin-bottom: 2rem;
+  }
+  .knowledgeStyles {
+    margin-left: 0!important;
+  }
+  .schoolName,
+  .genIndustryHeading {
+    font-size: 2.75rem;
+  }
+  .degreeType,
+  .degreeFocus,
+  .certTitle {
+    font-size: 3.25rem;
+  }
+  .credentialID {
+    font-size: 2.75rem;
+  }
+  .svg-inline--fa.fa-w-16 {
+    width: .75em;
+  }
+  .svg-inline--fa.fa-w-20 {
+    width: 1em;
+  }
+
+  // Reading
+  .readingPanel {
+    flex-direction: column;
+    padding: 0;
+    width: 100%!important;
+  }
+  .booksListHeader {
+    font-size: 3.5rem!important;
+  }
+  li.bookEntry {
+    font-size: 3rem!important;
+  }
+  h4.bookListType {
+    font-size: 2.85rem!important;
+  }
+
+  // Footer Items
+  footer {
+    margin-left: 0;
+  }
+  .gemTroveButton {
+    text-align: center;
+  }
+  .gemTroveButton__label {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .theGemTrove__Explanation {
+    font-size: 2.35rem;
+    margin: 0 0 2rem 0;
+  }
+  .theGemTrove__ExplanationParagraph {
+    font-size: 1.8rem;
+    letter-spacing: .1em;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  #thankYou__footer>p {
+    margin: 0;
+    text-align: center;
+  }
+  .thanks {
+    font-size: 5rem;
+  }
+  .bestWishes {
+    font-size: 4rem;
+  }
+  .theCreator {
+    font-size: 3rem;
+  }
+
+  // Gem Specific Code
+  .expGemList,
+  .expChildhood,
+  .expTeenToToday,
+  .expLapidaries,
+  .expClosingStatement {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .explanationBody {
+    margin: 0 0 2rem 0;
+    width: 100%;
+    font-size: 2.45rem;
+  }
+
+  .gemLink {
+    font-size: 3rem;
+  }
+  .gemRow {
+    background: rgba(0, 0, 0, .3);
+  }
+};
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /*Hide Navigation & Remove Sidebar Buffers*/
+  div.navbar,
+  nav.navigation,
+  .foxMinesGems,
+  .aboutArticle_Header,
+  .aboutMe_panel {
+    display: none;
+  }
+
+  // Splash Page
+  .brand {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .welcomeFromAuthor {
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-heading {
+    font-size: 3.5rem!important;
+    padding: 0 1rem;
+  }
+  .header,
+  .aboutAnchor {
+    margin: 0;
+  };
+  .welcomeFromAuthor,
+  .banner-heading {
+    font-size: 5rem;
+  }
+  .brand,
+  .banner-heading {
+    width: 100%;
+  }
+  .landing-subheader {
+    white-space: unset;
+  }
+  .typewriterStyle {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  // Needs Review And Cleaning
+  .aboutMe,
+  .welcome,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    padding: 0;
+    font-size: 2.5rem;
+  }
+  .welcome,
+  .aboutMe,
+  .whyGemTrove_lead,
+  .whyGemTrove,
+  .pseudoExplanation {
+    font-size: 2rem;
+  }
+
+  // About Me
+  .aboutArticle {
+    padding: 0;
+  }
+  .aboutMeHeader {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .aboutMeParagraph {
+    padding: 0 2rem!important;
+  }
+  .closingMessage {
+    flex-direction: column;
+  }
+  .creatorIntroduction {
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .creatorPortrait__container {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+  }
+  .creatorPortrait {
+    margin: 1rem auto;
+    width: 50%!important;
+  }
+  .siteCreatorStamp {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+  }
+  .carousel {
+    display: none;
+  }
+
+  // Get In Touch
+  .contactPanel {
+    flex-direction: column;
+  }
+  .contactSection {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  .contactParagraph {
+    font-size: 3.25rem;
+    line-height: revert;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    width: 90%;
+  }
+  .contacts_1,
+  .contacts_2 {
+    font-size: 2.25rem;
+  }
+
+  .contactSubContainer {
+    color: #eee;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    margin: 2rem auto;
+    width: 100%;
+  }
+
+  // Recent Projects
+  .sectionTitle {
+    font-size: 6rem !important;
+  }
+  .sectionSubheading {
+    font-size: 3.25rem !important;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .crystal-row {
+    width: 50%;
+  }
+  .smallDeviceResize {
+    margin: 0 auto 3rem auto;
+    width: 75%;
+  }
+
+  // Employment
+  #employment {
+    display: none;
+  }
+
+  // Education
+  .almaMaters,
+  .verifiedSkills {
+    width: 100% !important;
+  }
+  .almaMaterHeader,
+  .industryCertHeader {
+    font-size: 4rem;
+  }
+  .certificates {
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .hardEducation {
+    flex-direction: column;
+  }
+  .industryCertHeader {
+    margin-bottom: 2rem;
+  }
+  .knowledgeStyles {
+    margin-left: 0!important;
+  }
+  .schoolName,
+  .genIndustryHeading {
+    font-size: 2.75rem;
+  }
+  .degreeType,
+  .degreeFocus,
+  .certTitle {
+    font-size: 3.25rem;
+  }
+  .credentialID {
+    font-size: 2.75rem;
+  }
+  .svg-inline--fa.fa-w-16 {
+    width: .75em;
+  }
+  .svg-inline--fa.fa-w-20 {
+    width: 1em;
+  }
+
+  // Reading
+  .readingPanel {
+    flex-direction: column;
+    padding: 0;
+    width: 100%!important;
+  }
+  .booksListHeader {
+    font-size: 3.5rem!important;
+  }
+  li.bookEntry {
+    font-size: 3rem!important;
+  }
+  h4.bookListType {
+    font-size: 2.85rem!important;
+  }
+
+  // Footer Items
+  footer {
+    margin-left: 0;
+  }
+  .gemTroveButton {
+    text-align: center;
+  }
+  .gemTroveButton__label {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .theGemTrove__Explanation {
+    font-size: 2.35rem;
+    margin: 0 0 2rem 0;
+  }
+  .theGemTrove__ExplanationParagraph {
+    font-size: 1.8rem;
+    letter-spacing: .1em;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  #thankYou__footer>p {
+    margin: 0;
+    text-align: center;
+  }
+  .thanks {
+    font-size: 5rem;
+  }
+  .bestWishes {
+    font-size: 4rem;
+  }
+  .theCreator {
+    font-size: 3rem;
+  }
+
+  // Gem Specific Code
+  .expGemList,
+  .expChildhood,
+  .expTeenToToday,
+  .expLapidaries,
+  .expClosingStatement {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .explanationBody {
+    margin: 0 0 2rem 0;
+    width: 100%;
+    font-size: 2.45rem;
+  }
+
+  .gemLink {
+    font-size: 3rem;
+  }
+  .gemRow {
+    background: rgba(0, 0, 0, .3);
+  }
+};
+@media screen and (min-width: 360px) and (max-width: 575px) {
   // Page Specific Changes
   html {
     overflow-x: hidden;
@@ -349,7 +1157,7 @@
   .header,
   .aboutAnchor {
     margin: 0;
-  }
+  };
   .welcomeFromAuthor,
   .banner-heading {
     font-size: 5rem;
@@ -416,62 +1224,51 @@
     font-weight: bolder;
     margin-top: 3rem;
   }
+  .carousel {
+    display: none;
+  }
 
   // Get In Touch
-  .contactMethod {
-    width: 100%;
-    margin: 0 0 2rem 0;
-    font-size: 2rem;
-    text-align: center;
-  }
-  .contactMethods {
-    color: white;
-    font-family: 'Josephin Slab', sans-serif;
-    font-size: 2rem;
-    font-weight: lighter;
-    list-style-type: none;
-    text-align: left;
-  }
-    .contact__Blurb {
-    margin-bottom: 4rem;
-    font-size: 2rem;
-  }
-  .contactMethodList {
-    width: 100%;
+.contactPanel {
+  flex-direction: column;
+}
+  .contactSection {
     margin: 0 auto;
+    padding: 0;
+    width: 100%;
   }
-  .hardContact {
-    font-family: 'Oswald', sans-serif;
-  }
-  .getInTouchParagraph {
-    padding: 0 3rem !important;
-  }
-  .githubContact {
-    margin-top: 2rem;
-  }
-  .contactDetails {
-    color: white;
-    font-size: 2rem;
-  }
-  .contactContainer {
+
+  .contactParagraph {
+    font-size: 3.25rem;
+    line-height: revert;
     margin: 0 auto;
-    width: 75%;
+    padding: 1.25rem 0;
+    width: 90%;
   }
-  .githubLink {
+  .contacts_1,
+  .contacts_2 {
+    font-size: 2.25rem;
+  }
+
+  .contactSubContainer {
+    color: #eee;
     font-family: 'Oswald', sans-serif;
-    font-weight: bolder;
+    font-size: 2.25rem;
+    margin: 2rem auto;
+    width: 100%;
   }
 
   // Recent Projects
   .sectionTitle {
-    font-size: 6rem;
+    font-size: 6rem !important;
   }
-  .sectionSubInfo {
-    font-size: 3.25rem;
+  .sectionSubheading {
+    font-size: 3.25rem !important;
+    margin: 0 auto;
+    width: 85%;
   }
-  .projectBonus {
-    padding-top: 3rem;
-    white-space: break-spaces;
+  .crystal-row {
+    width: 100%;
   }
   .smallDeviceResize {
     margin: 0 auto 3rem auto;
