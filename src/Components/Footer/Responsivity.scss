@@ -1122,6 +1122,18 @@
   .gemRow {
     background: rgba(0, 0, 0, .3);
   }
+
+  .foxMinesGems {
+    display: inline;
+    margin: 0 auto;
+    width: 75%;
+  }
+  .banner-heading {
+    font-size: 3rem!important;
+  }
+  .landingContainer-bottom {
+    flex-direction: column;
+  }
 };
 @media screen and (min-width: 360px) and (max-width: 575px) {
   // Page Specific Changes
@@ -1393,5 +1405,16 @@
   }
   .gemRow {
     background: rgba(0, 0, 0, .3);
+  }
+  .foxMinesGems {
+    display: inline;
+    margin: 0 auto;
+    width: 75%;
+  }
+  .banner-heading {
+    font-size: 3rem!important;
+  }
+  .landingContainer-bottom {
+    flex-direction: column;
   }
 };
