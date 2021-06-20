@@ -47,18 +47,22 @@ $resetToZero: 0;
   text-align: left;
 }
 
-.aboutMe {
-  padding: 0 5rem 5rem 5rem;
-  text-align: center;
+.aboutMeParagraph {
+  padding: 0 0 0 15%;
+  text-align: right!important;
 }
 
 .farewell {
   text-align: center !important;
 }
 
+.welcome {
+  margin: 0 auto 4rem auto;
+  width: 50%;
+}
+
 .welcome,
 .pseudoExplanation {
-  padding: 5rem 5rem 5rem 0;
   text-align: center;
 }
 
@@ -141,7 +145,6 @@ $resetToZero: 0;
 .familyAlbum {
   display: flex;
   width: 100%;
-  margin: 4rem 0 0 0;
 }
 
 .familyPhotoDim {
@@ -154,7 +157,12 @@ $resetToZero: 0;
   display: flex;
   justify-content: space-around;
 }
-
+.creatorPortrait__container {
+  align-self: center;
+  margin: 0 auto!important;
+  text-align: left;
+  width: 25%;
+}
 .creatorPortrait {
   border-radius: 100%;
   width: 50%;
@@ -172,4 +180,9 @@ $resetToZero: 0;
 .familyRow {
   padding: 2rem 8rem;
   width: 75%;
+}
+
+.fullScreenLayout {
+  display: flex;
+  flex-direction: row-reverse;
 }

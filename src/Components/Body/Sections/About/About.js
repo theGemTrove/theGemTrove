@@ -6,31 +6,33 @@ const About = () => {
 		<section id="about">
 			<article className="aboutAnchor">
 				<h3 className="sectionTitle">About Me</h3>
-				<div className="creatorPortrait__container">
-					<img src="https://www.dropbox.com/s/ruigygov3fmc10v/dustin.jpg?raw=1"
-							 alt="Image Of Dustin K Greco" className="creatorPortrait" loading="lazy"
-					/>
-				</div>
-				<div className="creatorIntroduction">
-					<p className="welcome aboutMeParagraph">
-						Please allow me to welcome you to my website!
-					</p>
-					<p className="aboutMe aboutMeParagraph">
-						My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with nearly a decade of
-						experience in building applications, reports, and programs in various languages through a multitude
-						of tools both open-source and proprietary. This site is meant to house the culmination of my
-						knowledge and abilities.
-					</p>
-					<p className="whyGemTrove_lead aboutMeParagraph">
-						Now, you may be wondering...
-					</p>
-					<p className="whyGemTrove aboutMeParagraph">
-						Why "The GemTrove"?
-					</p>
-					<p className="pseudoExplanation aboutMeParagraph">
-						Well...read on! Perhaps you'll intuit why before I can tell you, but...
-						if you're impatient, simply scroll down to the page footer for my personal answer.
-					</p>
+				<p className="welcome">
+					Please allow me to welcome you to my website!
+				</p>
+				<div className="fullScreenLayout">
+					<div className="creatorPortrait__container">
+						<img src="https://www.dropbox.com/s/ruigygov3fmc10v/dustin.jpg?raw=1"
+								 alt="Image Of Dustin K Greco" className="creatorPortrait" loading="lazy"
+						/>
+					</div>
+					<div className="creatorIntroduction">
+						<p className="aboutMe aboutMeParagraph">
+							My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with nearly a decade of
+							experience in building applications, reports, and programs in various languages through a multitude
+							of tools both open-source and proprietary. This site is meant to house the culmination of my
+							knowledge and abilities.
+						</p>
+						<p className="whyGemTrove_lead aboutMeParagraph">
+							Now, you may be wondering...
+						</p>
+						<p className="whyGemTrove aboutMeParagraph">
+							Why "The GemTrove"?
+						</p>
+						<p className="pseudoExplanation aboutMeParagraph">
+							Well...read on! Perhaps you'll intuit why before I can tell you, but...
+							if you're impatient, simply scroll down to the page footer for my personal answer.
+						</p>
+					</div>
 				</div>
 				<MobileCarousel />
 				<div className="aboutMe_panel">
@@ -52,9 +54,9 @@ const About = () => {
 						<div className="intro_1">
 							<p className="blurb">
 								I live in the beautiful, and arid San Tan Valley, Arizona, USA with my husband Brett, and
-								our four pet children; Louie, Vandal, Mister, & Bailey. There are also the additional family members:
-								Anastasia, Hunter, & Vicki. They are my inspiration to always keep learning and pushing myself in
-								my journey through life.
+								our three pet children; Vandal, Mister, & Bailey. There are also the additional family members:
+								Louie, Anastasia, Hunter, & Vicki. They are my inspiration to always keep learning and pushing myself
+								in my journey through life.
 							</p>
 						</div>
 						<div className="intro_2">

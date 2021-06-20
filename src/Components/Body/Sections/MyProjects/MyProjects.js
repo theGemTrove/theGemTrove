@@ -30,7 +30,7 @@ const MyProjects = () => {
 			<article className="sectionArticle recentProjectSectionOverlay">
 				<h3 className="sectionTitle">Recent Projects</h3>
 				<h3 className="sectionSubheading">Click on any of the buttons below to be taken to a project!</h3>
-				<h3 className="sectionSubheading">If you want to know more about the crystal, click its picture!</h3>
+				<h3 className="sectionSubheading crystalExcerpt">If you want to know more about the crystal, click its picture!</h3>
 				<div className="row row-cols-lg-4 crystal-row">
 					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
 						<h2 className="crystalHeader">MongoDB</h2>
