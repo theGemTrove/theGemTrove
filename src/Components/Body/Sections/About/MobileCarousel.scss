@@ -1,3 +1,20 @@
 .carousel {
   display: none;
 }
+
+.carouselCaption {
+  background: rgba(0, 0, 0, .5);
+}
+
+.carouselCaption > h5,
+.carouselCaption > p {
+  color: #eee;
+}
+
+.carouselCaption > h5 {
+  font-size: 2rem;
+}
+
+.carouselCaption > {
+  font-size: 1rem;
+}

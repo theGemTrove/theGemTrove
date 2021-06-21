@@ -33,7 +33,7 @@ const Certifications = () => {
 		<div className="verifiedSkills">
 			<h2 className="industryCertHeader">
 				<FontAwesomeIcon icon={faIndustryAlt} className="eduIcon"/>
-				Industry Certificates
+				Industry Certs
 			</h2>
 			<div className="certificates">
 				<div className="techIndustry__certs">

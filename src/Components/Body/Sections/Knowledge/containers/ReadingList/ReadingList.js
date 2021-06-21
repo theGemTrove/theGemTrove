@@ -32,7 +32,7 @@ const ReadingList = () => {
 					{printBook(require('./data/fun.json'))}
 				</div>
 				<div className="col-sm-12 col-lg-4">
-					<h4 className="bookListType">Top 5 Fave Literature</h4>
+					<h4 className="bookListType">Fave Literature</h4>
 					{printBook(require('./data/lit.json'))}
 				</div>
 			</div>

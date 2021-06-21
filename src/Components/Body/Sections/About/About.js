@@ -16,19 +16,19 @@ const About = () => {
 						/>
 					</div>
 					<div className="creatorIntroduction">
-						<p className="aboutMe aboutMeParagraph">
+						<p>
 							My name is Dustin, and I'm an aspiring Full-Stack MERN Developer with nearly a decade of
 							experience in building applications, reports, and programs in various languages through a multitude
 							of tools both open-source and proprietary. This site is meant to house the culmination of my
 							knowledge and abilities.
 						</p>
-						<p className="whyGemTrove_lead aboutMeParagraph">
+						<p>
 							Now, you may be wondering...
 						</p>
-						<p className="whyGemTrove aboutMeParagraph">
+						<p className="whyGemTrove">
 							Why "The GemTrove"?
 						</p>
-						<p className="pseudoExplanation aboutMeParagraph">
+						<p>
 							Well...read on! Perhaps you'll intuit why before I can tell you, but...
 							if you're impatient, simply scroll down to the page footer for my personal answer.
 						</p>

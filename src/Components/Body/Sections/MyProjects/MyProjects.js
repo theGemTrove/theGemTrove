@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGem } from '@fortawesome/pro-duotone-svg-icons';
 import './MyProjects.scss';
 
 const MyProjects = () => {
@@ -40,7 +38,7 @@ const MyProjects = () => {
 							</a>
 								<div className="card-body crystal-card-body">
 									<h5 className="card-title crystal-card-title">Emerald</h5>
-									<p className="card-text crystal-card-text">MongoDB - Coming Soon</p>
+									<p className="card-text crystal-card-text">Coming Soon</p>
 									<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me MongoDB</a>
 								</div>
 						</div>
@@ -53,7 +51,7 @@ const MyProjects = () => {
 							</a>
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Tourmaline</h5>
-								<p className="card-text crystal-card-text">ExpressJS - Coming Soon</p>
+								<p className="card-text crystal-card-text">Coming Soon</p>
 								<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me ExpressJS</a>
 							</div>
 						</div>
@@ -66,7 +64,7 @@ const MyProjects = () => {
 							</a>
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Sapphire</h5>
-								<p className="card-text crystal-card-text">React/Redux - Coming Soon</p>
+								<p className="card-text crystal-card-text">Coming Soon</p>
 								<a href="#" className="btn btn-primary crystal-card-button crystal-card-button disabled">Show Me ReactJS/Redux</a>
 							</div>
 						</div>
@@ -79,7 +77,7 @@ const MyProjects = () => {
 							</a>
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Alexandrite</h5>
-								<p className="card-text crystal-card-text">NodeJS - Coming Soon</p>
+								<p className="card-text crystal-card-text">Coming Soon</p>
 								<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me NodeJS</a>
 							</div>
 						</div>
@@ -87,14 +85,14 @@ const MyProjects = () => {
 				</div>
 				<div className="row crystal-row">
 					<div className="col-sm-12 col-md-6 col-lg-6 col-xl-3 smallDeviceResize">
-						<h2 className="crystalHeader">GemTrove API Library</h2>
+						<h2 className="crystalHeader">My API Library</h2>
 						<div className="card">
 							<a href="https://www.gia.edu/aquamarine">
 								<img className="card-img-top img-fluid crystal" src="https://www.dropbox.com/s/w4fql8xwvae65r4/aquamarine.jpg?raw=1" alt="Card image cap" />
 							</a>
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Aquamarine</h5>
-								<p className="card-text crystal-card-text">The GemTrove's API Library</p>
+								<p className="card-text crystal-card-text">My API Library</p>
 								<a href="http://api-library-thegemtrove.tech" className="btn btn-primary crystal-card-button crystal-card-button">Show Me The Library</a>
 							</div>
 						</div>

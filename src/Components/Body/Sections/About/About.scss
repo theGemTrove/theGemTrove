@@ -47,27 +47,15 @@ $resetToZero: 0;
   text-align: left;
 }
 
-.aboutMeParagraph {
-  padding: 0 0 0 15%;
-  text-align: right!important;
-}
-
 .farewell {
   text-align: center !important;
 }
 
-.welcome {
-  margin: 0 auto 4rem auto;
-  width: 50%;
-}
-
-.welcome,
 .pseudoExplanation {
   text-align: center;
 }
 
-.whyGemTrove,
-.whyGemTrove_lead {
+.whyGemTrove {
   text-align: center;
 }
 
@@ -113,12 +101,6 @@ $resetToZero: 0;
 .sandwichedText {
   display: flex;
   align-items: center;
-}
-
-.vickiImg {
-  color: #000;
-  padding-bottom: 2rem;
-  width: 100%;
 }
 
 /*Override Bootstrap Styles*/
