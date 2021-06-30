@@ -11,17 +11,19 @@ const MobileCarousel = () => {
 				<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-				{/*<li data-target="#carouselExampleCaptions" data-slide-to="7"></li>*/}
+				<li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
 			</ol>
 			<div className="carousel-inner">
-{/*				<div className="carousel-item active">
-					<img src="https://www.dropbox.com/s/v0hzpq1zo8zpao2/vandal.png?raw=1" className="d-block w-100" alt="Vandal As A Puppy" />
+				<div className="carousel-item active">
+					<img src="https://www.dropbox.com/s/vol3qlzz0dmzmgn/mobile_vandal.png?raw=1" className="d-block w-100" alt="Vandal As A Puppy" />
 						<div className="carousel-caption d-none d-md-block">
 							<h5>Vandal</h5>
 							<p>Vandal Was The cutest puppy ever!</p>
 						</div>
-				</div>*/}
-				<div className="carousel-item active">
+				</div>
+				<div className="carousel-item">
 					<img src="https://www.dropbox.com/s/h2yichvj508nqh0/bailey.png?raw=1" className="d-block w-100" alt="Bailey & Mister napping together" />
 						<div className="carousel-caption d-none d-md-block carouselCaption">
 							<h5>Bailey</h5>
@@ -80,6 +82,20 @@ const MobileCarousel = () => {
 							<h5>Anastasia</h5>
 							<p>Always up to something!</p>
 						</div>
+				</div>
+				<div className="carousel-item">
+					<img src="https://www.dropbox.com/s/dsle3in5mq2kwxq/regan.jpg?raw=1" className="d-block w-100" alt="Regan, one of my closest friends" />
+					<div className="carousel-caption d-none d-md-block carouselCaption">
+						<h5>Regan</h5>
+						<p>Closest Of Friends</p>
+					</div>
+				</div>
+				<div className="carousel-item">
+					<img src="https://www.dropbox.com/s/51fllefwvm5baij/hunter.png?raw=1" className="d-block w-100" alt="Hunter C." />
+					<div className="carousel-caption d-none d-md-block carouselCaption">
+						<h5>Hunter C.</h5>
+						<p>Hunter C. Hanging Out</p>
+					</div>
 				</div>
 			</div>
 		<a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" hidden>

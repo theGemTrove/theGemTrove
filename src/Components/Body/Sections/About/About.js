@@ -155,17 +155,43 @@ const About = () => {
 							<div className="intro_2 sandwichedText">
 								<p className="pastEmployment thankyouFriends">
 									Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
-									whom have become dear friends. The efforts of Bridget & John Sandoval, Liz Phan, Regan Warner,
+									and friends. The efforts of Bridget & John S., Liz P., Regan W., Hunter C.,
 									and Susan Sommerfeld have been instrumental to my development: professionally and personally.
 									I hope that you've enjoyed reading up to this point and I hope you've enjoyed getting to see a part
 									of my family and friends. I am thrilled to be able to share this site and the format, method,
 									and delivery of the content as it stands. I hope you check in from
 									time to time as I'll be updating the site as often as I can.</p>
 							</div>
+							<div className="familyAlbum friendsAlbum">
+								<div className="hunterAndReganRow mb-5">
+									<div className="card shadow-sm">
+										<img
+											src="https://www.dropbox.com/s/dsle3in5mq2kwxq/regan.jpg?raw=1"
+											className="img-fluid" loading="lazy"
+											alt="Responsive image"
+										/>
+										<div className="card-body">
+											<p className="card-text">Regan: The Closest Of Friends</p>
+										</div>
+									</div>
+								</div>
+								<div className="hunterAndReganRow mb-5">
+									<div className="card shadow-sm">
+										<img
+											src="https://www.dropbox.com/s/51fllefwvm5baij/hunter.png?raw=1"
+											className="img-fluid" loading="lazy"
+											alt="Responsive image"
+										/>
+										<div className="card-body">
+											<p className="card-text">Hunter C. Hanging Out</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div className="intro_2 lastBioSection">
 							<div className="finalBioSection">
-								<div className="accompanyingPhoto">
+								<div className="accompanyingPhoto mb-5">
 									<div className="picContainer">
 										<div className="card shadow-sm">
 											<img
@@ -174,7 +200,7 @@ const About = () => {
 												alt="Responsive image"
 											/>
 											<div className="card-body">
-												<p className="card-text">Hunter & Mister In Captivity</p>
+												<p className="card-text">Hunter J. & Mister In Captivity</p>
 											</div>
 										</div>
 									</div>
@@ -196,7 +222,7 @@ const About = () => {
 										the visitor!
 									</p>
 								</div>
-								<div className="accompanyingPhoto">
+								<div className="accompanyingPhoto mb-5">
 									<div className="picContainer">
 										<div className="card shadow-sm">
 											<img
@@ -205,7 +231,7 @@ const About = () => {
 												alt="Responsive image"
 											/>
 											<div className="card-body">
-												<p className="card-text">And Anastasia with something delicious!</p>
+												<p className="card-text">Anastasia's Cloud Cake!</p>
 											</div>
 										</div>
 									</div>
