@@ -156,7 +156,7 @@ hgroup {
     visibility: hidden;
   }
   50% {
-    visibility: hidden;
+    visibility: visible;
   }
   100% {
     visibility: visible;
@@ -197,14 +197,4 @@ hgroup {
   align-items: center;
   display: flex;
   justify-content: center;
-}
-
-.loadingGameScreen {
-  display: flex;
-}
-
-.Typewriter__cursor {
-  color: black;
-  height: 0;
-  width: 0;
 }

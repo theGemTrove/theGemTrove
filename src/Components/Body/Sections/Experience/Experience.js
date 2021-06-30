@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Typewriter from "typewriter-effect";
 
 import './Experience.scss';
 const Experience = () => {
@@ -7,7 +6,6 @@ const Experience = () => {
 	const [sectionsLoaded, trackLoadedSection] = useState([]);
 
 	const toggleLoader = evt => {
-		console.log(sectionsLoaded.indexOf(`${evt.target.id}`) !== -1)
 		let addingSectionToArray = false;
 		if (sectionsLoaded.indexOf(`${evt.target.id}`) === -1) {
 			sectionsLoaded.push(`${evt.target.id}`);
@@ -74,21 +72,9 @@ const Experience = () => {
 				<div className="right_sidePanel container">
 					<div className="loadingMessage msgShell">
 						{loading && <div className="loadingGameScreen">
-							<p>Loading</p>
-							<Typewriter
-								onInit={(typewriter) => {
-									typewriter
-										.pauseFor(1000)
-										.start();
-								}}
-								options={{
-									strings: ['.', '..', '...'],
-									autoStart: true,
-									deleteSpeed: 0,
-									loop: true,
-									wrapperClassName: 'msgShell'
-								}}
-							/>
+							<p>Select A Button On The Left To</p>
+							<p>View My Employment Info For A Given Company!</p>
+							<p className="blink">Start</p>
 						</div>}
 					</div>
 					<div className="collapse" id="influx_collapse">

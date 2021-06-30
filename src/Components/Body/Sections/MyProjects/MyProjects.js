@@ -39,7 +39,7 @@ const MyProjects = () => {
 								<div className="card-body crystal-card-body">
 									<h5 className="card-title crystal-card-title">Emerald</h5>
 									<p className="card-text crystal-card-text">Coming Soon</p>
-									<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me MongoDB</a>
+									<a href="#" className="btn btn-primary crystal-card-button disabled bg-light text-dark">Show Me MongoDB</a>
 								</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@ const MyProjects = () => {
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Tourmaline</h5>
 								<p className="card-text crystal-card-text">Coming Soon</p>
-								<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me ExpressJS</a>
+								<a href="#" className="btn btn-primary crystal-card-button disabled bg-light text-dark">Show Me ExpressJS</a>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,11 @@ const MyProjects = () => {
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Sapphire</h5>
 								<p className="card-text crystal-card-text">Coming Soon</p>
-								<a href="#" className="btn btn-primary crystal-card-button crystal-card-button disabled">Show Me ReactJS/Redux</a>
+								<a href="#"
+									 className="btn btn-primary crystal-card-button crystal-card-button disabled bg-light text-dark"
+								>
+									Show Me ReactJS/Redux
+								</a>
 							</div>
 						</div>
 					</div>
@@ -78,7 +82,7 @@ const MyProjects = () => {
 							<div className="card-body crystal-card-body">
 								<h5 className="card-title crystal-card-title">Alexandrite</h5>
 								<p className="card-text crystal-card-text">Coming Soon</p>
-								<a href="#" className="btn btn-primary crystal-card-button disabled">Show Me NodeJS</a>
+								<a href="#" className="btn btn-primary crystal-card-button disabled bg-light text-dark">Show Me NodeJS</a>
 							</div>
 						</div>
 					</div>
