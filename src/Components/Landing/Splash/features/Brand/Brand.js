@@ -1,27 +1,20 @@
 ;'use strict';
 import React from 'react';
-
-// Font Awesome Imports
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTreasureChest} 	 from "@fortawesome/pro-duotone-svg-icons";
-
 import './Brand.scss';
 const Brand = () => { 'use strict';
 	const brandInfo = Object.seal({
 		title: 'The GemTrove'
 	});
 	return (
-
 		<div className="brand">
-			<div>
-				<FontAwesomeIcon icon={faTreasureChest} className="gemArk" title={brandInfo.title} />
-			</div>
-			<div>
-				<h1 className="brandName">{brandInfo.title}</h1>
+			<div className="brandContainer">
+				<img
+					src="https://www.dropbox.com/s/51p4rfm3j0yn69h/oie_transparent%281%29.png?raw=1" alt="Trove Of Gems"
+					className="img-fluid trove-of-gems"
+				/>
 			</div>
 		</div>
-
 	);
 }
-
+//
 export default Brand;

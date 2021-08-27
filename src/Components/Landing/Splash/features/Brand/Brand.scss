@@ -8,22 +8,15 @@ $BRAND_COLOR: #deaa86;
 $FONT_FAMILY_LIST: 'Amatic SC', sans-serif;
 
 .brand {
-  align-items: center;
   color: $BRAND_COLOR;
-  display: flex;
   font-family: $FONT_FAMILY_LIST;
   font-size: ($BASE_SIZE * 2);
   font-weight: bolder;
-  justify-content: space-evenly;
   letter-spacing: .3rem;
-  padding-top: $BASE_SIZE;
-  width: 15%;
+  width: 350px;
 }
 
-.gemArk {
-  font-size: ($BASE_SIZE * 4);
-}
-
-.brandName {
-  font-size: ($BASE_SIZE * 2);
+.trove-of-gems {
+  background-image: radial-gradient(circle at -100%, #333, #333 50%, #eee 75%, #333 75%, #000);
+  width: 350px;
 }

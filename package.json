@@ -1,9 +1,9 @@
 {
-  "name": "thegemtrove",
-  "repository": "git@github.com:theGemTrove/theGemTrove.git",
-  "author": "Dustin K Greco <dkgreco@thegemtrove.tech>",
+  "name": "troveofgems",
+  "repository": "git@github.com:theGemTrove/troveofgems.git",
+  "author": "Dustin K Greco <dkgreco@troveofgems.tech>",
   "description": "Personal Website Presence For DKG",
-  "version": "1.2.3",
+  "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
   "private": true,

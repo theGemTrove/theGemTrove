@@ -6,10 +6,13 @@ $SET_TO_CENTER: center;
 
 .banner {
   color: $BANNER_TEXT_COLOR;
-  text-align: $SET_TO_CENTER;
+  margin: auto auto auto 0;
+  text-align: center;
+  width: 69%;
 }
 
 .welcomeFromAuthor {
+  color: #deaa86;
   font-size: 10rem;
   padding: 2rem;
 }
@@ -33,6 +36,7 @@ $SET_TO_CENTER: center;
 }
 
 .landing-subheader {
+  color: #deaa86;
   width: $FULL_WIDTH;
   white-space: pre-wrap;
 }
@@ -40,6 +44,5 @@ $SET_TO_CENTER: center;
 .banner-heading {
   font-family: $FONT_FAMILY_LIST;
   font-size: 7rem;
-  width: ($FULL_WIDTH * .5);
   word-break: break-word;
 }

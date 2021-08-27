@@ -20,16 +20,16 @@ const Banner = () => {
 			<CoruscatingGem />
 			<Typewrite />
 			<div className="landingContainer-bottom">
+				<div className="landing-subheader">
+					<h4 className="banner-heading">
+						{info.subMessage}
+					</h4>
+				</div>
 				<div className="foxMinesGems">
 					<img
 						src="https://www.dropbox.com/s/giildg422g6zf45/FoxMinesGemPower.gif?raw=1"
 						className="img-fluid foxMinesGemPower" alt="Anthropomorphic Fox Mining Crystals"
 					/>
-				</div>
-				<div className="landing-subheader">
-					<h4 className="banner-heading">
-						{info.subMessage}
-					</h4>
 				</div>
 			</div>
 		</div>
