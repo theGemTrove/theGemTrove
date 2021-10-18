@@ -1,10 +1,7 @@
 ;'use strict';
 import React from 'react';
 import './Brand.scss';
-const Brand = () => { 'use strict';
-	const brandInfo = Object.seal({
-		title: 'The GemTrove'
-	});
+const Brand = () => {
 	return (
 		<div className="brand">
 			<div className="brandContainer">

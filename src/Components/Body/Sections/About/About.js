@@ -26,7 +26,7 @@ const About = () => {
 							Now, you may be wondering...
 						</p>
 						<p className="whyGemTrove">
-							Why "The GemTrove"?
+							Why the "Trove Of Gems"?
 						</p>
 						<p>
 							Well...read on! Perhaps you'll intuit why before I can tell you, but...
@@ -156,7 +156,7 @@ const About = () => {
 								<p className="pastEmployment thankyouFriends">
 									Where I am at today wouldn't be possible without the guidance and mentoring of various co-workers
 									and friends. The efforts of Bridget & John S., Liz P., Regan W., Hunter C.,
-									and Susan Sommerfeld have been instrumental to my development: professionally and personally.
+									and Susan S. have been instrumental to my development: professionally and personally.
 									I hope that you've enjoyed reading up to this point and I hope you've enjoyed getting to see a part
 									of my family and friends. I am thrilled to be able to share this site and the format, method,
 									and delivery of the content as it stands. I hope you check in from

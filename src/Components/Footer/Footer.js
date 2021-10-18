@@ -13,7 +13,7 @@ const Footer = () => {
 											data-target="#collapseOne" aria-expanded="false"
 											aria-controls="collapseOne"
 							>
-								So, Why "The GemTrove"?
+								So, Back To The Question, Why The "Trove Of Gems"?
 							</button>
 						</h5>
 					</div>
@@ -25,7 +25,7 @@ const Footer = () => {
 							<p className="theGemTrove__ExplanationParagraph">
 								Diamonds, Emeralds, Rubies, and Sapphires; Alexandrite, Agate,
 								Amethyst, Aquamarine, Garnet, Jade, Lapis-Lazuli, Moonstone, Opal, Black & White Pearl, Rose Quartz,
-								Spinel, Tanzanite, Tourmaline, Turquoise, and Zircon.
+								Spinel, Sunstone, Tanzanite, Tourmaline, Turquoise, and Zircon.
 							</p>
 							<p className="theGemTrove__ExplanationParagraph">
 								My fascination with precious and semi-precious gemstones stems primarily from my love of earth sciences
