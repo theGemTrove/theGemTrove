@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'Pixeboy';
+  src: url("../../../../assets/fonts/Pixeboy/pixeboy.ttf") format("truetype");
+}
+
+/*hgroup {
+  margin: 0 7% 10%;
+}*/
+
+#employment {
+  height: 100%;
+  margin-left: 8rem;
+  overflow: hidden;
+}
+
+.controlpad {
+  padding-top: 2rem;
+  height: 65%;
+}
+
+.gameScreen {
+  display: flex;
+  height: 100rem;
+  text-align: center;
+}
+
+.left_sidePanel {
+  background: url("../../../../assets/images/career/sdD.gif") no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.employmentSelections {
+  height: 100%;
+}
+
+.techEmployment {
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.restaurantEmployment {
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.employmentHeading {
+  color: #9bbc0f;
+  background: rgba(0, 0, 0, .6);
+  font-family: Pixeboy, sans-serif !important;
+  font-size: 3rem;
+  letter-spacing: 25px;
+  padding: 2rem 0;
+  margin: 0;
+}
+
+.subEmploymentHeading {
+  font-size: 2.25rem;
+  background: rgba(0, 0, 0, .8);
+  width: fit-content;
+  padding: 2rem;
+  margin: 1rem auto;
+}
+
+.employmentTypes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 5rem auto;
+}
+
+.employment_panel > p {
+  margin: 0 0 15px;
+}
+
+.employment_panel {
+  background: transparent;
+  border: none;
+}
+
+/*.employmentButton {
+  padding: 15px 25px;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: Pixeboy, sans-serif;
+}
+
+.employmentButton:hover {background-color: #3e8e41}
+
+.employmentButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}*/
+
+.companyName {
+  font-family: Pixeboy, sans-serif;
+  font-size: 3rem;
+  color: #000;
+  letter-spacing: 10px;
+  margin-bottom: 5rem;
+}
+
+.jobRole {
+  color: #000;
+  font-size: 2.5rem;
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  margin-bottom: 5rem;
+}
+
+.detailContent {
+  color: #000;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.75rem;
+  text-align: left;
+}
+
+.acquisitionBy {
+  font-size: 1.75rem;
+  font-family: Ubuntu, sans-serif;
+  color: #4f4f4f;
+  letter-spacing: .1em;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.employmentLength {
+  font-family: Ubuntu, sans-serif;
+  color: #000;
+  font-size: 1.5rem;
+  margin: 2rem 0 0 0;
+}
+
+.card, .card-body {
+  background: transparent;
+}
+
+.right_sidePanel {
+  background: rgba(0, 0, 0, .9);
+  overflow-y: auto;
+  width: 100%;
+}
+
+.current_employment {
+  background: #929d97;
+  border-radius: 3px;
+  border-left: 2px solid greenyellow;
+  padding: 5rem;
+}
+
+.previous_employment {
+  background: #929d97;
+  border-radius: 3px;
+  border-left: 1px solid #fff;
+  padding: 5rem;
+}
+
+.blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 3s linear infinite condemned_blink_effect;
+}
+
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.imageLoadingContainer {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingImg {
+  width: 200px;
+  align-self: center;
+}
+
+.loadingMessage {
+  color: #9bbc0f;
+  font-family: 'Pixeboy', sans-serif;
+  font-size: 5rem;
+  height: 100%;
+  align-content: center;
+}
+
+.msgShell {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loadingGameScreen {
+  font-size: 2rem;
+}
+
+.jtitle {
+  color: #000;
+}
+
+
+                                                     /* CSS */
+.button-63 {
+  align-items: center!important;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px!important;
+  box-sizing: border-box!important;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif!important;
+  font-size: 1.25rem!important;
+  justify-content: center!important;
+  line-height: 1em!important;
+  max-width: 100%!important;
+  min-width: 140px!important;
+  padding: 19px 24px!important;
+  text-decoration: none!important;
+  user-select: none!important;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap!important;
+  cursor: pointer!important;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.whoAreThey,
+.myContributions {
+  text-align: start;
+}
+
+/*
+.detailContent__Contributions {
+  padding-bottom: 5rem;
+}*/
+
+.certDetails {
+  display: flex;
+}
+
+.jSectionSeparator {
+  margin: 2rem 0;
+}

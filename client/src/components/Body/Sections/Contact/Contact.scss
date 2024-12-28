@@ -1,0 +1,85 @@
+@use 'sass:math';
+//General Style Vars
+$centerIt: center !important;
+$coverTheBackground: 100% 100%;
+$fullPercent: 100%;
+$adjustForSidebar: 8em;
+$resetToZero: 0;
+
+//Image Imports
+$background_Contact_URL: url("../../../../assets/images/contact/contact_bg.gif");
+$background_CatRain_URL: url("../../../../assets/images/contact/cat_rain.gif");
+
+.contactAnchor {
+  height: $fullPercent;
+  margin-left: 8rem;
+  text-align: $centerIt;
+  background: #000;
+}
+
+.contactPanel {
+  padding-bottom: 3rem;
+  background-image: $background_CatRain_URL;
+  background-repeat: no-repeat;
+  background-size: $coverTheBackground;
+}
+
+.contactBg1 {
+  text-align: center;
+/*  background-image: $background_Contact_URL;
+  background-repeat: no-repeat;
+  background-size: $coverTheBackground;*/
+  padding: 0!important;
+}
+
+.contactBg2 {
+  text-align: center;
+/*  background-image: $background_CatRain_URL;
+  background-repeat: no-repeat;
+  background-size: $coverTheBackground;*/
+  padding: 0!important;
+}
+
+.contactParagraph {
+  font-size: 2.25rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.contacts_1,
+.contacts_2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contacts_2 {
+  color: #fff;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.halp {
+  color: red;
+}
+
+.contactSection_Details {
+  text-align: start;
+}
+
+.give_a_follow,
+.contact_email {
+  font-size: 1.75rem;
+  color: #deaa86;
+}
+
+.contactWrapper {
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  padding: 2rem 10%;
+}
+
+.contactWrapperCenter {
+  align-content: center;
+}

@@ -1,0 +1,50 @@
+#education {
+  margin-left: 8rem;
+}
+
+.schoolEntry {
+  background-color: #eee;
+}
+
+.educationBreak {
+  margin: 0;
+  padding: 0;
+}
+
+.school__name {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.75rem;
+}
+
+.dates__attended {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.25rem;
+  margin-bottom: 0;
+}
+
+.degree__obtained {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.25rem;
+  margin-top: .25rem;
+  margin-bottom: 2rem;
+}
+
+.schoolWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.childWrapper {
+  padding: 2rem;
+}
+
+.school_highlights {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.25rem;
+  margin-top: .25rem;
+}
+
+.school_highligh_list {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2rem;
+}

@@ -1,0 +1,58 @@
+$BANNER_TEXT_COLOR: #ddd;
+
+$FONT_FAMILY_LIST: "Amatic SC", sans-serif;
+$FULL_WIDTH: 100%;
+$SET_TO_CENTER: center;
+
+.splashRow {
+  height: 100vh;
+}
+
+.banner {
+  color: $BANNER_TEXT_COLOR;
+  /*margin: auto auto auto 0;*/
+  width: 100%;
+  margin-top: 2rem;
+  height: 100vh;
+}
+
+.welcomeFromAuthor {
+  color: #deaa86;
+  font-size: 4rem;
+  margin: 6rem 0;
+  max-width: 540px;
+}
+
+.welcomeFromAuthor_1 {
+
+}
+
+.landingContainer-bottom {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foxMinesGems {
+  padding-right: 0;
+  display: inline-flex;
+  justify-content: $SET_TO_CENTER;
+
+}
+
+.foxMinesGemPower {
+  border-radius: 15px;
+}
+
+.landing-subheader {
+  color: #deaa86;
+  width: $FULL_WIDTH;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.banner-heading {
+  font-family: $FONT_FAMILY_LIST;
+  font-size: 3.5rem;
+  word-break: break-word;
+}
