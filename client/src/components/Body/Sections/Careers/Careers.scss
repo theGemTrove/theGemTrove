@@ -290,3 +290,14 @@
 .jSectionSeparator {
   margin: 2rem 0;
 }
+
+@media(max-width: 915px) {
+  .employmentHeading {
+    font-size: 2rem;
+    letter-spacing: unset;
+  }
+
+  .right_sidePanel {
+    visibility: collapse;
+  }
+}

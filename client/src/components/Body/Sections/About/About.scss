@@ -213,3 +213,61 @@ a.carousel-control-next {
 .aboutPhotoParagraph {
   font-size: 1.25rem;
 }
+
+.carouselBg {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media(max-width: 915px) {
+  .about__SectionTitle {
+    font-size: 2rem!important;
+  }
+  p.blurb, .pastEmployment, .finalGratitudes, p.finalMessage {
+    font-size: 1.4rem;
+  }
+  .accompanyingPhoto_Left {
+    float: none;
+    padding-right: 0;
+  }
+  .accompanyingPhoto, .accompanyingPhoto_Left, .accompanyingPhoto_Right {
+    width: 100%!important;
+    margin-bottom: 2rem;
+  }
+  .setTextBuffer {
+    padding-right: 0;
+  }
+
+  .intro_2 {
+    margin: 0;
+  }
+  .intro_2 {
+    padding-right: 0;
+  }
+
+  .about__cardText {
+    font-size: 1.25rem !important;
+  }
+
+  .carouselBg {
+    width: 100%!important;
+    margin: 0;
+  }
+
+  a.carousel-control-prev {
+    left: 0 !important;
+  }
+  a.carousel-control-next {
+    right: 0 !important;
+  }
+
+  .friendPhoto {
+    max-width: 300px!important;
+    max-height: 500px!important;
+  }
+
+  .carousel-item {
+    max-width: 300px!important;
+    max-height: 500px!important;
+  }
+}

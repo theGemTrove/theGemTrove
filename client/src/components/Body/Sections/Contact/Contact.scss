@@ -83,3 +83,9 @@ $background_CatRain_URL: url("../../../../assets/images/contact/cat_rain.gif");
 .contactWrapperCenter {
   align-content: center;
 }
+
+@media(max-width: 915px) {
+  p.contactParagraph, .give_a_follow, .contact_email {
+    font-size: 1.4rem!important;
+  }
+}
