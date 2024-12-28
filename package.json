@@ -1,10 +1,8 @@
 {
   "name": "troveofgems",
   "repository": "git@github.com:theGemTrove/troveofgems.git",
-
   "version": "1.0.0",
-  "main": "server.js",
-
+  "main": "index.js",
   "private": true,
   "scripts": {
     "start:client": "npm run start --prefix client",
