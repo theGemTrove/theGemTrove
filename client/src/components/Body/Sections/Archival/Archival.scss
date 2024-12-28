@@ -1,0 +1,94 @@
+#theArchives {
+  height: 100%;
+}
+
+.theArchivesSection {
+  //background: linear-gradient(to right, #000, #111);
+  background: url("https://www.dropbox.com/s/h4694wa6gt75mmo/mine.jpg?raw=1") no-repeat;
+  background-size: cover;
+}
+
+.archival__SectionTitle {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 0;
+  margin: 0;
+}
+
+
+.recentProjectSectionOverlay {
+  height: inherit;
+  background-color: rgba(0, 0, 0, .75);
+}
+.crystal {
+  cursor: pointer;
+  height: 20rem;
+}
+.crystalHeader {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+.crystal-card-title {
+  border-bottom: 1px solid black;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.crystal-card-body {
+  text-align: center;
+}
+.crystal-card-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.25rem!important;
+}
+.crystal-card-button {
+  font-size: 2.75rem;
+  font-weight: bolder;
+}
+.crystal-row {
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  width: 50%;
+}
+
+.crystalExcerpt {
+  margin-bottom: 4rem;
+}
+
+.archival__sectionSubheading {
+  font-size: 2rem!important;
+}
+
+.archival__sectionBlurb {
+  font-size: 2rem!important;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.go_to_archives {
+  color: #deaa86;
+}
+
+.crystalCard {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.cardCrystalImg {
+  width: 225px;
+  height: 300px;
+}
+
+.crystal-card-button {
+  font-size: 1.25rem!important;
+}
+
+.crystal-card-text__Desc {
+  font-size: 1.20rem;
+}
+
+.crystalRows {
+  margin-left: 8rem;
+}
