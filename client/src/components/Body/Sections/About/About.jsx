@@ -124,9 +124,9 @@ export const About = () => (
                             time to time as I'll be updating the site as often as I can.
                         </p>
                     </div>
-                    <MDBCarousel showIndicators showControls fade className={"w-50 m-auto carouselBg"}>
+                    <MDBCarousel showIndicators showControls fade className={"carouselBg"}>
                         <MDBCarouselItem itemId={1}>
-                            <img src={`${Mister}`} className='d-block m-auto' alt='...' />
+                            <img src={`${Mister}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>Our Cat Mister</h5>
                                 <p className={"aboutPhotoParagraph"}>In his summoning blanket.</p>
@@ -134,7 +134,7 @@ export const About = () => (
                         </MDBCarouselItem>
 
                         <MDBCarouselItem itemId={2}>
-                            <img src={`${Vicki}`} className='d-block m-auto' alt='...' />
+                            <img src={`${Vicki}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>My Friend Vicki</h5>
                                 <p className={"aboutPhotoParagraph"}>We met during my employment at Avoka.</p>
@@ -142,7 +142,7 @@ export const About = () => (
                         </MDBCarouselItem>
 
                         <MDBCarouselItem itemId={3}>
-                            <img src={`${Louie}`} className='d-block m-auto' alt='...' />
+                            <img src={`${Louie}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>My Heeler Lou</h5>
                                 <p className={"aboutPhotoParagraph"}>Dreaming of Fetch.</p>
@@ -150,7 +150,7 @@ export const About = () => (
                         </MDBCarouselItem>
 
                         <MDBCarouselItem itemId={4}>
-                            <img src={`${Regan}`} className='d-block m-auto' alt='...' />
+                            <img src={`${Regan}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>My Friend Regan</h5>
                                 <p className={"aboutPhotoParagraph"}>We met during my baking journey.</p>
@@ -158,7 +158,7 @@ export const About = () => (
                         </MDBCarouselItem>
 
                         <MDBCarouselItem itemId={5}>
-                            <img src={`${HunterClinton}`} className='d-block m-auto' alt='...' />
+                            <img src={`${HunterClinton}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>My Friend Hunter C.</h5>
                                 <p className={"aboutPhotoParagraph"}>Definitely an awesome guy.</p>
@@ -166,7 +166,7 @@ export const About = () => (
                         </MDBCarouselItem>
 
                         <MDBCarouselItem itemId={5}>
-                            <img src={`${HunterJung}`} className='d-block m-auto' alt='...' />
+                            <img src={`${HunterJung}`} className='d-block m-auto friendPhoto' alt='...' />
                             <MDBCarouselCaption>
                                 <h5 className={"aboutPhotoLabel"}>My Friend Hunter J.</h5>
                                 <p className={"aboutPhotoParagraph"}>My best friend of over 13 years.</p>

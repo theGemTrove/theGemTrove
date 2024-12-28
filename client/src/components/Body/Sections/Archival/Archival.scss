@@ -14,6 +14,7 @@
   font-size: 3rem;
   padding: 2rem 0;
   margin: 0;
+  margin-left: 8rem;
 }
 
 
@@ -90,5 +91,26 @@
 }
 
 .crystalRows {
-  margin-left: 8rem;
+  margin-left: 8rem!important;
+}
+
+@media(max-width: 915px) {
+  .archival__SectionTitle {
+    font-size: 2rem;
+  }
+
+  .crystalCard {
+    text-align: center!important;
+  }
+
+  .cardCrystalImg {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .crystal-card-button {
+    margin: 1rem;
+  }
 }

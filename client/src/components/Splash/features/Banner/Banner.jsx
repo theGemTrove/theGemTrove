@@ -29,7 +29,7 @@ export const Banner = () => (
                     />
                 </div>
             </Col>
-            <Col lg={4} md={6} sm={12} className={"mt-5 text-center align-content-center"}>
+            <Col lg={4} md={6} sm={12} className={"mt-5 text-center align-content-center crystalAndTypewrite"}>
                 <CoruscatingGem/>
                 <Typewriter/>
             </Col>

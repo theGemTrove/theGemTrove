@@ -48,3 +48,26 @@
   font-family: "Fredericka the Great", cursive;
   font-size: 2rem;
 }
+
+@media(max-width: 915px) {
+  .school {
+    display: flex;
+    flex-direction: column;
+  }
+  .schoolPhoto {
+    width: 100%!important;
+  }
+
+  .school__name, .school_highlights {
+    font-size: 2rem;
+  }
+
+  .dates__attended, .degree__obtained {
+    font-size: 1.5rem;
+  }
+
+  .school_highligh_list {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}

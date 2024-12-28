@@ -7,7 +7,7 @@ import ESHS from "../../../../../assets/images/almaMaters/eshs.jpg";
 
 const OptimizedImage = ({ imgSrc, children }) => {
     return (
-        <div style={{display: 'flex', position: 'relative', width: '100%'}}>
+        <div style={{display: 'flex', position: 'relative', width: '100%'}} className={"school"}>
             <img
                 src={`${imgSrc}`}
                 alt="Your image description"
@@ -17,6 +17,7 @@ const OptimizedImage = ({ imgSrc, children }) => {
                     objectFit: 'fill',
                     objectPosition: 'center'
                 }}
+                className={"schoolPhoto"}
             />
             {children}
         </div>
