@@ -251,6 +251,7 @@ a.carousel-control-next {
 
   .carouselBg {
     width: 100%!important;
+    height: 500px!important;
     margin: 0;
   }
 
@@ -264,6 +265,7 @@ a.carousel-control-next {
   .friendPhoto {
     max-width: 300px!important;
     max-height: 500px!important;
+    min-height: 500px!important;
   }
 
   .carousel-item {
