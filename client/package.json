@@ -11,9 +11,9 @@
     "cra-template": "1.2.0",
     "jquery": "^3.7.1",
     "mdb-react-ui-kit": "^9.0.0",
-    "react": "^19.0.0",
+    "react": "^18.1.0",
     "react-bootstrap": "^2.10.7",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "sass": "^1.83.0",
     "typewriter-effect": "^2.21.0",
@@ -23,7 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "onRenderBuild": "npm install --legacy-peer-deps && npm run build",
+    "onRenderBuild": "npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
