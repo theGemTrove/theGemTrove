@@ -1,10 +1,15 @@
 import React, {useState} from 'react';
 import "bootstrap";
+import Collapse from 'react-bootstrap/Collapse';
 import "./Careers.scss";
 export const Careers = () => {
     const
         [showInitialMessage, toggleShowInitialMessage] = useState(true),
         [showingJob, setShowingJob] = useState(null);
+
+
+    const [toggle, setToggle] = useState(false);
+    const toggleFunc = React.useCallback(() => setToggle(!toggle));
 
     const toggleLoader = evt => {
         console.log('evt: ', evt.target.value, evt.target.id, showingJob);
@@ -38,111 +43,6 @@ export const Careers = () => {
                                         At-Ease
                                     </button>
                                 </p>
-                                {
-                                    (showingJob === "AtEase") && (
-                                        <div id="atease_collapse">
-                                            <section id="atEase" className="current_employment">
-                                                <hgroup>
-                                                    <h3 className="companyName">
-                                                        <a
-                                                            href="https://www.atease.io"
-                                                        >At-Ease
-                                                        </a>
-                                                    </h3>
-                                                    <h4 className="jobRole">
-                                                        My Role:<br/><br/>
-                                                        <span className="jtitle">
-                                            Principal/Senior Software Developer
-                                        </span>
-                                                    </h4>
-                                                    <h4 className={"whoAreThey"}>Who Are They?</h4>
-                                                    <h4 className="detailContent">
-                                                        At-Ease is a Vacation Rentals Company focused on facilitating
-                                                        Military and Government Travelers.
-                                                    </h4>
-                                                    <hr className={"jSectionSeparator"}/>
-                                                    <h4 className={"myContributions"}>My Contributions in this Position:</h4>
-                                                    <h4 className="detailContent detailContent__Contributions">
-                                                        I began with At-Ease as a Software Engineer. My responsibilities initially
-                                                        focused on transitioning and evaluating the products being delivered by an
-                                                        overseas team. The products had been built with Java, AWS Server Components,
-                                                        a handful of MySQL databases and plethora of database tables. The products
-                                                        were intended to facilitate a Traveling Platform for Government & Military
-                                                        Members.
-                                                        <br/><br/>
-                                                        Shortly after the transition it became my responsibility to work with the
-                                                        Front-end Engineer to build a viable product from what had been delivered by
-                                                        the overseas team. I modified the Java backend APIs to resolve issues
-                                                        between
-                                                        the backend and the frontend. I also created new APIs for the Front-end
-                                                        Engineer based on the feedback received from the Front-end Engineer's needs.
-                                                        I coordinated and made changes to the backend application, server systems,
-                                                        and third party integrations: coordinating with the CEO, CTO, Engineering
-                                                        Managers, and Product Managers to ensure implementations were correct
-                                                        and designed according to spec.
-                                                        <br/><br/>
-                                                        I was quickly promoted to Senior Software Engineer after demonstrating my
-                                                        skills of being able to work through the Java Application Packages. Within
-                                                        six months of receiving the application we had our first booking through the
-                                                        system.
-                                                        <br/><br/>
-                                                        There-after, it was decided by the C Team that we should move to a new
-                                                        system.
-                                                        In June of 2023 I began writing two new backends using NodeJS, ExpressJS,
-                                                        and PostGreSQL. I finished the two backends by October 2023. In January
-                                                        2024,
-                                                        I was promoted to Principal Software Developer and began to build two new
-                                                        frontends in Angular. I finished the two Angular front-ends with the team
-                                                        by May 2024, and set up servers on Digital Ocean with Ngnix to serve the
-                                                        four applications. I designed the database tables, the models, APIs,
-                                                        and workflows for the application, and implemented the designs with the
-                                                        help of the team.
-                                                    </h4>
-                                                    <hr className={"jSectionSeparator"}/>
-                                                    <h4 className={"myContributions"}>Programming Stack:</h4>
-                                                    <h4 className="detailContent  detailContent__Contributions">
-                                                        <ul>
-                                                            <li>Current: PEAN - PostGreSQL, ExpressJS, Angular, NodeJS, Digital Ocean, Nginx</li>
-                                                            <li>Legacy: MAJA - MySQL, Angular, Java, AWS</li>
-                                                        </ul>
-                                                    </h4>
-                                                    <hr className={"jSectionSeparator"}/>
-                                                    <h4 className={"myContributions"}>Career Highlights:</h4>
-                                                    <h4 className="detailContent detailContent__Contributions">
-                                                        <ul>
-                                                            <li>
-                                                                Progression:
-                                                                <ol>
-                                                                    <li className={"mt-3 mb-3"}>
-                                                                        Software Engineer,
-                                                                        <div>
-                                                                            Team R&D
-                                                                        </div>
-                                                                    </li>
-                                                                    <li className={"mt-3 mb-3"}>
-                                                                        Senior Software Engineer,
-                                                                        <div>
-                                                                            Team R&D
-                                                                        </div>
-                                                                    </li>
-                                                                    <li className={"mt-3 mb-3"}>
-                                                                        Principal Software Developer,
-                                                                        <div>
-                                                                            Team R&D
-                                                                        </div>
-                                                                    </li>
-                                                                </ol>
-                                                            </li>
-                                                        </ul>
-                                                    </h4>
-                                                    <h6 className="employmentLength">
-                                                        Employment Length: 2 years | Currently Furloughed
-                                                    </h6>
-                                                </hgroup>
-                                            </section>
-                                        </div>
-                                    )
-                                }
                                 <p>
                                     <button className="btn btn-primary employmentButton button-63" type="button"
                                             onClick={toggleLoader} id="theTroveofGems" value="theTroveofGems"
@@ -152,7 +52,8 @@ export const Careers = () => {
                                     </button>
                                 </p>
                                 <p>
-                                    <button className="btn btn-primary employmentButton button-63" type="button" value="Avoka"
+                                    <button className="btn btn-primary employmentButton button-63" type="button"
+                                            value="Avoka"
                                             data-toggle="collapse" data-target="#avoka_collapse" onClick={toggleLoader}
                                             id="Avoka"
                                             aria-expanded="false" aria-controls="avoka_collapse">
@@ -167,39 +68,108 @@ export const Careers = () => {
                                         Intrado
                                     </button>
                                 </p>
+                                {/*<button className={"button-63"} onClick={toggleFunc}>Toggle Collapse</button>
+                                <Collapse in={toggle}>
+                                    <div className="collapsed" id="influx_collapse">
+                                        <section id="influx" className="current_employment">
+                                            <hgroup>
+                                                <h3 className="companyName">The Trove of Gems</h3>
+                                                <h4 className="jobRole">
+                                                    My Role:<br/><br/>
+                                                    <span className="jtitle">
+                                            FullStack MERN Developer
+                                        </span>
+                                                </h4>
+                                                <h4 className="detailContent">
+                                                    My own personal and freelancing work or services:
+                                                </h4>
+                                                <h4 className="detailContent  detailContent__Contributions">
+                                                    <ul>
+                                                        <li className={"mt-5"}>
+                                                            <a href={"https://www.bdxceu.com"}>BDXCEU</a>
+                                                            <div>
+                                                                BDXCEU is a SaaS Education Product Platform of which the
+                                                                focus
+                                                                is
+                                                                Chiropractic Education and facilitates the ability for
+                                                                students
+                                                                to sign-up, login, register for classes, take exams, and
+                                                                receive certificates upon course completion. Created for
+                                                                <a href={"https://www.sportsacademy.us"}> sportsacademy.us</a>
+                                                            </div>
+                                                        </li>
+                                                        <li className={"mt-5"}>
+                                                            <a href={"https://www.igleague.com"}>IGLeague</a>
+                                                            <div>
+                                                                IGLeague is a SaaS ESports Product Platform of which the
+                                                                focus
+                                                                is
+                                                                to facilitate the ability for gamers to sign-up, login
+                                                                and
+                                                                maintain accounts,
+                                                                register for tournaments, attend games, and
+                                                                purchase coins to attend tournaments. Now managed
+                                                                by Pixel Systems or another associated servicer.
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </h4>
+                                                <hr className={"jSectionSeparator"}/>
+                                                <h4 className={"myContributions"}>Programming Stack:</h4>
+                                                <h4 className="detailContent  detailContent__Contributions">
+                                                    <ul>
+                                                        <li>MERN - MongoDB, ExpressJS, ReactJS, NodeJS</li>
+                                                    </ul>
+                                                </h4>
+                                                <hr className={"jSectionSeparator"}/>
+                                                <h4 className={"myContributions"}>Attained Certifications:</h4>
+                                                <h4 className="detailContent detailContent__Contributions">
+                                                    <ul>
+                                                        <li>
+                                                            <a href={"https://www.mile2.com/certificate-verification/"}>Certified
+                                                                Secure Web Application Engineer</a>
+                                                            <div>
+                                                                Mile2, Id[14461-161-550-4375], March 2021
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </h4>
+                                            </hgroup>
+                                        </section>
+                                    </div>
+                                </Collapse>*/}
                             </div>
-                            <h6 className="employmentHeading subEmploymentHeading">Food Industry</h6>
-                            <div className="restaurantEmployment">
-
-                                <p>
-                                    <button className="btn btn-primary employmentButton button-63" type="button"
-                                            data-toggle="collapse" data-target="#panera_collapse" onClick={toggleLoader}
-                                            id="Panera" value={"Panera"}
-                                            aria-expanded="false" aria-controls="panera_collapse">
-                                        Panera Bread
-                                    </button>
-                                </p>
-                                <p>
-                                    <button className="btn btn-primary employmentButton button-63" type="button"
-                                            data-toggle="collapse" data-target="#coffeeBagels_collapse"
-                                            onClick={toggleLoader} id="CaB" value={"CaB"}
-                                            aria-expanded="false" aria-controls="coffeeBagels_collapse">
-                                        Coffee & Bagels
-                                    </button>
-                                </p>
-                                <p>
-                                    <button className="btn btn-primary employmentButton button-63" type="button"
-                                            data-toggle="collapse" data-target="#daveAndBusters_collapse"
-                                            onClick={toggleLoader} id="DaB" value={"DaB"}
-                                            aria-expanded="false" aria-controls="daveAndBusters_collapse">
-                                        Dave & Busters
-                                    </button>
-                                </p>
-                            </div>
+                        </div>
+                        <h6 className="employmentHeading subEmploymentHeading">Food Industry</h6>
+                        <div className="restaurantEmployment">
+                            <p>
+                                <button className="btn btn-primary employmentButton button-63" type="button"
+                                        data-toggle="collapse" data-target="#panera_collapse" onClick={toggleLoader}
+                                        id="Panera" value={"Panera"}
+                                        aria-expanded="false" aria-controls="panera_collapse">
+                                    Panera Bread
+                                </button>
+                            </p>
+                            <p>
+                                <button className="btn btn-primary employmentButton button-63" type="button"
+                                        data-toggle="collapse" data-target="#coffeeBagels_collapse"
+                                        onClick={toggleLoader} id="CaB" value={"CaB"}
+                                        aria-expanded="false" aria-controls="coffeeBagels_collapse">
+                                    Coffee & Bagels
+                                </button>
+                            </p>
+                            <p>
+                                <button className="btn btn-primary employmentButton button-63" type="button"
+                                        data-toggle="collapse" data-target="#daveAndBusters_collapse"
+                                        onClick={toggleLoader} id="DaB" value={"DaB"}
+                                        aria-expanded="false" aria-controls="daveAndBusters_collapse">
+                                    Dave & Busters
+                                </button>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div className="right_sidePanel container">
+                <div className="right_sidePanel">
                     {
                         showInitialMessage && (
                             <div className="loadingMessage msgShell">
