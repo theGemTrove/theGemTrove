@@ -38,6 +38,111 @@ export const Careers = () => {
                                         At-Ease
                                     </button>
                                 </p>
+                                {
+                                    (showingJob === "AtEase") && (
+                                        <div id="atease_collapse">
+                                            <section id="atEase" className="current_employment">
+                                                <hgroup>
+                                                    <h3 className="companyName">
+                                                        <a
+                                                            href="https://www.atease.io"
+                                                        >At-Ease
+                                                        </a>
+                                                    </h3>
+                                                    <h4 className="jobRole">
+                                                        My Role:<br/><br/>
+                                                        <span className="jtitle">
+                                            Principal/Senior Software Developer
+                                        </span>
+                                                    </h4>
+                                                    <h4 className={"whoAreThey"}>Who Are They?</h4>
+                                                    <h4 className="detailContent">
+                                                        At-Ease is a Vacation Rentals Company focused on facilitating
+                                                        Military and Government Travelers.
+                                                    </h4>
+                                                    <hr className={"jSectionSeparator"}/>
+                                                    <h4 className={"myContributions"}>My Contributions in this Position:</h4>
+                                                    <h4 className="detailContent detailContent__Contributions">
+                                                        I began with At-Ease as a Software Engineer. My responsibilities initially
+                                                        focused on transitioning and evaluating the products being delivered by an
+                                                        overseas team. The products had been built with Java, AWS Server Components,
+                                                        a handful of MySQL databases and plethora of database tables. The products
+                                                        were intended to facilitate a Traveling Platform for Government & Military
+                                                        Members.
+                                                        <br/><br/>
+                                                        Shortly after the transition it became my responsibility to work with the
+                                                        Front-end Engineer to build a viable product from what had been delivered by
+                                                        the overseas team. I modified the Java backend APIs to resolve issues
+                                                        between
+                                                        the backend and the frontend. I also created new APIs for the Front-end
+                                                        Engineer based on the feedback received from the Front-end Engineer's needs.
+                                                        I coordinated and made changes to the backend application, server systems,
+                                                        and third party integrations: coordinating with the CEO, CTO, Engineering
+                                                        Managers, and Product Managers to ensure implementations were correct
+                                                        and designed according to spec.
+                                                        <br/><br/>
+                                                        I was quickly promoted to Senior Software Engineer after demonstrating my
+                                                        skills of being able to work through the Java Application Packages. Within
+                                                        six months of receiving the application we had our first booking through the
+                                                        system.
+                                                        <br/><br/>
+                                                        There-after, it was decided by the C Team that we should move to a new
+                                                        system.
+                                                        In June of 2023 I began writing two new backends using NodeJS, ExpressJS,
+                                                        and PostGreSQL. I finished the two backends by October 2023. In January
+                                                        2024,
+                                                        I was promoted to Principal Software Developer and began to build two new
+                                                        frontends in Angular. I finished the two Angular front-ends with the team
+                                                        by May 2024, and set up servers on Digital Ocean with Ngnix to serve the
+                                                        four applications. I designed the database tables, the models, APIs,
+                                                        and workflows for the application, and implemented the designs with the
+                                                        help of the team.
+                                                    </h4>
+                                                    <hr className={"jSectionSeparator"}/>
+                                                    <h4 className={"myContributions"}>Programming Stack:</h4>
+                                                    <h4 className="detailContent  detailContent__Contributions">
+                                                        <ul>
+                                                            <li>Current: PEAN - PostGreSQL, ExpressJS, Angular, NodeJS, Digital Ocean, Nginx</li>
+                                                            <li>Legacy: MAJA - MySQL, Angular, Java, AWS</li>
+                                                        </ul>
+                                                    </h4>
+                                                    <hr className={"jSectionSeparator"}/>
+                                                    <h4 className={"myContributions"}>Career Highlights:</h4>
+                                                    <h4 className="detailContent detailContent__Contributions">
+                                                        <ul>
+                                                            <li>
+                                                                Progression:
+                                                                <ol>
+                                                                    <li className={"mt-3 mb-3"}>
+                                                                        Software Engineer,
+                                                                        <div>
+                                                                            Team R&D
+                                                                        </div>
+                                                                    </li>
+                                                                    <li className={"mt-3 mb-3"}>
+                                                                        Senior Software Engineer,
+                                                                        <div>
+                                                                            Team R&D
+                                                                        </div>
+                                                                    </li>
+                                                                    <li className={"mt-3 mb-3"}>
+                                                                        Principal Software Developer,
+                                                                        <div>
+                                                                            Team R&D
+                                                                        </div>
+                                                                    </li>
+                                                                </ol>
+                                                            </li>
+                                                        </ul>
+                                                    </h4>
+                                                    <h6 className="employmentLength">
+                                                        Employment Length: 2 years | Currently Furloughed
+                                                    </h6>
+                                                </hgroup>
+                                            </section>
+                                        </div>
+                                    )
+                                }
                                 <p>
                                     <button className="btn btn-primary employmentButton button-63" type="button"
                                             onClick={toggleLoader} id="theTroveofGems" value="theTroveofGems"
