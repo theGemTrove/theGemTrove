@@ -292,6 +292,10 @@
 }
 
 @media(max-width: 915px) {
+  .right_sidePanel > .container {
+    --mdb-gutter-x: 0!important;
+  }
+
   .employmentHeading {
     font-size: 2rem;
     letter-spacing: unset;
