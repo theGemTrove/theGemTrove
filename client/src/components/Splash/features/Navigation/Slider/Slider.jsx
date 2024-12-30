@@ -25,7 +25,7 @@ export const Slider = () => (
                 <li className="navigation-item">
                     <a href="#about" className="navigation-link">
 						<span className="navigem desc_about">
-                            About
+                            About Me
 						</span>
                     </a>
                 </li>
@@ -39,7 +39,7 @@ export const Slider = () => (
                 <li className="navigation-item">
                     <a href="#recentProjects" className="navigation-link">
 						<span className="navigem desc_projects">
-							The Archives
+							My Projects
 						</span>
                     </a>
                 </li>
