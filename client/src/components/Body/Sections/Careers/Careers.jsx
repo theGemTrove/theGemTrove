@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "bootstrap";
 import Collapse from 'react-bootstrap/Collapse';
 import "./Careers.scss";
+import {useTranslation} from "react-i18next";
 export const Careers = () => {
     const
         [showInitialMessage, toggleShowInitialMessage] = useState(true),
@@ -73,14 +74,16 @@ export const Careers = () => {
         }
     };
 
+    const {t} = useTranslation();
+
     return (
         <section id="employment">
             <div className="gameScreen">
                 <div className="left_sidePanel">
-                    <h4 className="employmentHeading">Employment History</h4>
+                    <h4 className="employmentHeading">{t('employment.main.label')}</h4>
                     <div className="controlpad">
                         <div className="employmentSelections">
-                            <h6 className="employmentHeading subEmploymentHeading">Tech Industry</h6>
+                            <h6 className="employmentHeading subEmploymentHeading">{t('employment.sub.label.tech')}</h6>
                             <div className="techEmployment">
                                 <button className="btn btn-primary button-63 employmentButton" type="button"
                                         onClick={toggleLoader} id="AtEase" value="AtEase"
@@ -616,7 +619,9 @@ export const Careers = () => {
                                 </div>
                             </div>
                         </div>
-                        <h6 className="employmentHeading subEmploymentHeading">Food Industry</h6>
+                        <h6 className="employmentHeading subEmploymentHeading">
+                            {t('employment.sub.label.food')}
+                        </h6>
                         <div className="restaurantEmployment">
                             <button className="btn btn-primary button-63 employmentButton" type="button"
                                     data-toggle="collapse" data-target="#panera_collapse" onClick={toggleLoader}

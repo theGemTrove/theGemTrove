@@ -9,11 +9,13 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "i18next": "^24.2.0",
     "jquery": "^3.7.1",
     "mdb-react-ui-kit": "^9.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.1.0",
+    "react-i18next": "^15.4.0",
     "react-scripts": "5.0.1",
     "sass": "^1.83.0",
     "typewriter-effect": "^2.21.0",
@@ -43,5 +45,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
+    "@babel/plugin-transform-numeric-separator": "^7.25.9",
+    "@babel/plugin-transform-optional-chaining": "^7.25.9",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@eslint/config-array": "^0.19.1",
+    "@eslint/object-schema": "^2.1.5"
   }
 }

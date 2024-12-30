@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from 'react-i18next';
 import packageInfo from "../../../../../../package.json";
 
 import './Sidebar.scss';
@@ -12,7 +13,8 @@ const info = Object.freeze({
 
 console.log("info? ", info);
 
-export const Sidebar = () => (
+export const Sidebar = () => {
+    return (
         <div className="navbar">
             <div className="sidebar">
                 <label htmlFor="click" id="hLabel">
@@ -40,4 +42,5 @@ export const Sidebar = () => (
                 </div>
             </div>
         </div>
-);
+    );
+}
