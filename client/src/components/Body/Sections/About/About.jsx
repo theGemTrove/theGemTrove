@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
 
 import Brett from "../../../../assets/images/aboutSection/brett.png";
@@ -12,10 +13,12 @@ import HunterClinton from "../../../../assets/images/aboutSection/hunter_clinton
 import HunterJung from "../../../../assets/images/aboutSection/hunter_jung.png";
 
 import "./About.scss";
-export const About = () => (
+export const About = () => {
+    const { t  } = useTranslation();
+    return (
     <section id="about">
         <article className="aboutAnchor">
-            <h4 className="about__SectionTitle">Who Am I?</h4>
+            <h4 className="about__SectionTitle">{t('aboutHeader')}</h4>
             <div className="aboutMe_panel">
                 <div className="aboutMe_textContainer">
                     <div className="creatorIntroduction">
@@ -23,8 +26,7 @@ export const About = () => (
                             I'm a Full-Stack MERN Developer with nearly a decade of experience in building applications,
                             reports, and programs in various languages through a multitude of tools both open-source
                             and proprietary. This site and its affiliated sub-domains are meant to house the culmination
-                            of my
-                            knowledge and abilities.
+                            of my knowledge and abilities.
                         </p>
                     </div>
                     <div className="accompanyingPhoto_Left setTextBuffer">
@@ -191,3 +193,4 @@ export const About = () => (
         </article>
     </section>
 )
+}

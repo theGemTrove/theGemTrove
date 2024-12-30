@@ -4,6 +4,7 @@ import "./AlmaMaters.scss";
 
 import FRCC from "../../../../../assets/images/almaMaters/frcc_westminster.jpg";
 import ESHS from "../../../../../assets/images/almaMaters/eshs.jpg";
+import {useTranslation} from "react-i18next";
 
 const OptimizedImage = ({ imgSrc, children }) => {
     return (
@@ -25,7 +26,7 @@ const OptimizedImage = ({ imgSrc, children }) => {
 };
 
 export const AlmaMaters = () => {
-
+    const {t} = useTranslation();
     return (
         <div className={"schoolWrapper"}>
             <div id={"college_0"} className={"schoolEntry"}>
@@ -37,23 +38,23 @@ export const AlmaMaters = () => {
                         <div className={"childWrapper"}>
                             <h3 className={"school__name"}>Front Range Community College</h3>
                             <p className={"dates__attended"}>
-                                Attended From August 2007 To December 2009
+                                {t('education.college.attended')}
                             </p>
                             <p className={"degree__obtained"}>
-                                Associate Degree of Science Received
+                                {t('education.college.degree')}
                             </p>
                             <p className={"school_highlights"}>
-                                Highlights:
+                                {t('education.highlightsLabel')}:
                             </p>
                             <ul className={"school_highligh_list"}>
                                 <li>
-                                    Made Dean's List Multiple Semesters
+                                    {t('education.college.highlightList.list.1')}
                                 </li>
                                 <li>
-                                    Made President's List Multiple Semesters
+                                    {t('education.college.highlightList.list.2')}
                                 </li>
                                 <li>
-                                    Instructed by one of the college's best Chemistry Instructors, Susan Northleaf
+                                    {t('education.college.highlightList.list.3')}
                                 </li>
                             </ul>
                         </div>
@@ -69,19 +70,27 @@ export const AlmaMaters = () => {
                         <div className={"childWrapper"}>
                             <h3 className={"school__name"}>El Segundo High School</h3>
                             <p className={"dates__attended"}>
-                                Attended From August 2003 To June 2007
+                                {t('education.highschool.attended')}
                             </p>
                             <p className={"degree__obtained"}>
-                                High School Diploma Received
+                                {t('education.highschool.degree')}
                             </p>
                             <p className={"school_highlights"}>
-                                Highlights:
+                                {t('education.highlightsLabel')}:
                             </p>
                             <ul className={"school_highligh_list"}>
-                                <li>Received the Golden State Seal Merit Diploma (GSSMD) Upon Graduation</li>
-                                <li>4 Years - Marching & Concert Band</li>
-                                <li>Voted In As Band Treasurer For 1 Year By Peers</li>
-                                <li>Voted In As Senior Classes' Yearbook's Most Unique</li>
+                                <li>
+                                    {t('education.highschool.highlightList.list.1')}
+                                </li>
+                                <li>
+                                    {t('education.highschool.highlightList.list.2')}
+                                </li>
+                                <li>
+                                    {t('education.highschool.highlightList.list.3')}
+                                </li>
+                                <li>
+                                    {t('education.highschool.highlightList.list.4')}
+                                </li>
                             </ul>
                         </div>
                     }

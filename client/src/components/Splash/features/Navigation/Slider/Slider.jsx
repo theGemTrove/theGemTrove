@@ -1,81 +1,87 @@
 import React from 'react';
 
 import "./Slider.scss";
+import {useTranslation} from "react-i18next";
 
-const info = Object.freeze({
-    links: {
-        about: {
-            name: 'About',
-            appendClass: '_about'
-        },
-        contact: {
-            name: 'Contact',
-            appendClass: '_contact'
-        },
-        projects: {
-            name: 'My Projects',
-            appendClass: '_about'
-        },
+export const Slider = () => {
+    const {t, i18n} = useTranslation();
+
+    const changeLanguageHandler = (lang) => {
+        return i18n.changeLanguage(lang);
     }
-});
-
-export const Slider = () => (
+    return (
         <nav className="navigation">
             <ul className="navigation-list">
                 <li className="navigation-item">
                     <a href="#about" className="navigation-link">
 						<span className="navigem desc_about">
-                            About Me
+                            {t('nav.about')}
 						</span>
                     </a>
                 </li>
                 <li className="navigation-item">
                     <a href="#contact" className="navigation-link">
 						<span className="navigem desc_contact">
-							Contact
+							{t('nav.contact')}
 						</span>
                     </a>
                 </li>
                 <li className="navigation-item">
                     <a href="#recentProjects" className="navigation-link">
 						<span className="navigem desc_projects">
-							My Projects
+							{t('nav.projects')}
 						</span>
                     </a>
                 </li>
                 <li className="navigation-item">
                     <a href="#employment" className="navigation-link">
 						<span className="navigem desc_employment">
-							Employment
+							{t('nav.employment')}
 						</span>
                     </a>
                 </li>
                 <li className="navigation-item">
                     <a href="#education" className="navigation-link">
 						<span className="navigem desc_education">
-							Education
+							{t('nav.education')}
 						</span>
                     </a>
                 </li>
             </ul>
             <div className="langPanel">
                 <i className="fa-duotone fa-globe-americas"></i>
-                <p className="langDesc"
+                {/*<small>Translation Services</small>*/}
+                <p className="langDesc-disabled" lang={"en"}
+                   onClick={() => changeLanguageHandler('en')}
                 >
-                    American English
+                    {t('nav.americanEnglish')}
                 </p>
                 <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
                    title="Czech Language Translation Services Coming Soon!" lang={"cz"}
+                   onClick={() => changeLanguageHandler('cz')}
                 >
-                    Češtinu
+                    {t('nav.czech')}
+                </p>
+                <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
+                   title="Spanish Language Translation Services Coming Soon!" lang={"sp"}
+                   onClick={() => changeLanguageHandler('sp')}
+                >
+                    {t('nav.spanish')}
+                </p>
+                <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
+                   title="Japanese Language Translation Services Coming Soon!" lang={"jp"}
+                   onClick={() => changeLanguageHandler('jp')}
+                >
+                    {t('nav.japanese')}
                 </p>
             </div>
             <div className="copyright">
-            <p>
-                    The Trove of Gems
+                <p>
+                    {t('nav.trademark')}
                     <br/>
-                    A Project Of Imagination
+                    {t('nav.footerMsg')}
                 </p>
             </div>
         </nav>
-);
+    );
+}
