@@ -13,8 +13,8 @@ const OptimizedImage = ({ imgSrc, children }) => {
                 src={`${imgSrc}`}
                 alt="Your image description"
                 style={{
-                    minWidth: '45%',
-                    width: '45%',
+                    minWidth: '50%',
+                    width: '50%',
                     objectFit: 'fill',
                     objectPosition: 'center'
                 }}

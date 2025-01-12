@@ -224,6 +224,10 @@
   width: 50%;
 }
 
+.childWrapper {
+  align-content: center;
+}
+
 @media(max-width: 915px) {
   .almaMaterHeader {
     font-size: 2rem;
