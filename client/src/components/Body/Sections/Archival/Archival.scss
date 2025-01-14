@@ -73,21 +73,26 @@
 }
 
 .crystalCard {
-  width: fit-content;
+  width: 395.2px;
+  height: 467px;
   margin: 0 auto;
 }
 
 .cardCrystalImg {
-  width: 225px;
-  height: 300px;
+  max-width: 395.2px;
+  max-height: 300px;
 }
 
 .crystal-card-button {
   font-size: 1.25rem!important;
+  margin-top: 1rem;
 }
 
 .crystal-card-text__Desc {
   font-size: 1.20rem;
+  width: 90%;
+  margin: 0 auto;
+  word-break: break-word;
 }
 
 .crystalRows {
