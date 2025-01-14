@@ -27,10 +27,10 @@ export const Archival = () => (
                                 The Archives
                             </p>
                             <p className="card-text crystal-card-text__Desc">
-                                Test
+                                Code Archives
                             </p>
                             <a href="https://www.archive.thetroveofgems.tech" className="btn btn-primary bg-light text-dark crystal-card-button">
-                                Take me to the Archives!
+                                Take Me There!
                             </a>
                         </div>
                     </div>
@@ -86,10 +86,9 @@ export const Archival = () => (
                             <p className="card-text crystal-card-text">Mineral Cup Tourney</p>
                             <p className="card-text crystal-card-text__Desc">
                                 Bracket Tournament For Minerals & Gems.
-                                To later be proposed to the mineralcup.org
                             </p>
                             <a href="https://www.npmjs.com/package/dni-cavern-time"
-                               className="btn btn-primary bg-light text-dark crystal-card-button">
+                               className="btn btn-primary bg-light text-dark crystal-card-button disabled">
                                 Coming Soon!
                             </a>
                         </div>
