@@ -27,7 +27,7 @@ export const Slider = () => {
                     </a>
                 </li>
                 <li className="navigation-item">
-                    <a href="#recentProjects" className="navigation-link">
+                    <a href="#theArchives" className="navigation-link">
 						<span className="navigem desc_projects">
 							{t('nav.projects')}
 						</span>
