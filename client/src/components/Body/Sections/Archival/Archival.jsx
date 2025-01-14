@@ -76,7 +76,7 @@ export const Archival = () => (
                 </Col>
                 <Col lg={4} md={6} sm={12} className={"mb-5"}>
                     <div className="card crystalCard">
-                        <a href="https://www.gia.edu/tourmaline">
+                        <a href="https://www.gia.edu/amethyst">
                             <img className="card-img-top cardCrystalImg"
                                  src={`${Amethyst}`}
                                  alt="Card image cap"/>
