@@ -8,13 +8,13 @@ import {Careers} from "./Sections/Careers/Careers";
 import {Education} from "./Sections/Education/Education";
 import {Footer} from "../Footer/Footer";
 
-export const Body = () => (
+export const Body = ({ cld }) => (
     <main role="main">
         <About/>
         <Contact/>
         <Archival/>
         <Careers/>
-        <Education />
+        <Education cld={cld} />
         <Footer />
     </main>
 )

@@ -1,7 +1,7 @@
+import {Cloudinary} from "@cloudinary/url-gen";
+
 import {Body} from "./components/Body/Body";
 import {Splash} from "./components/Splash/Splash";
-
-/*import "bootstrap/scss/bootstrap.scss";*/
 
 import "./assets/fontawesome/css/fontawesome.min.css";
 import "./assets/fontawesome/css/duotone.min.css";
@@ -13,12 +13,20 @@ import "./assets/fontawesome/css/light.min.css";
 
 import './App.scss';
 function App() {
-  return (
-    <div className="App">
-        <Splash />
-        <Body />
-    </div>
-  );
+    const cld = new Cloudinary({
+        cloud: {
+            cloudName: 'ds5xwt3v1'
+        }
+    });
+
+    console.log("CLD? ", cld);
+
+    return (
+        <div className="App">
+            <Splash />
+            <Body cld={cld} />
+        </div>
+    );
 }
 
 export default App;

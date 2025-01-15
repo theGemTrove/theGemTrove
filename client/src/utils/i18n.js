@@ -29,7 +29,8 @@ const resources = {
                 'header': 'Alma Maters',
                 'college': {
                     'attended': 'Attended From August 2007 To December 2009',
-                    'degree': 'Associate Degree of Science Received',
+                    'campus': 'Westminster Campus, Westminster Colorado',
+                    'degree': 'Associate Degree of Science',
                     'highlightList': {
                         'list.1': 'Made Dean\'s List Multiple Semesters',
                         'list.2': 'Made President\'s List Multiple Semesters',
@@ -38,7 +39,8 @@ const resources = {
                 },
                 'highschool': {
                     'attended': 'Attended From August 2003 To June 2007',
-                    'degree': 'High School Diploma Received',
+                    'location': 'El Segundo, California',
+                    'degree': 'High School Diploma With GSSMD Honors',
                     'highlightList': {
                         'list.1': 'Received the Golden State Seal Merit Diploma (GSSMD) Upon Graduation',
                         'list.2': '4 Years - Marching & Concert Band',

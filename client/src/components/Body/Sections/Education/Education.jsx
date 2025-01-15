@@ -3,8 +3,7 @@ import React from 'react';
 import "./Education.scss";
 import {AlmaMaters} from "./AlmaMaters/AlmaMaters";
 
-export const Education = () => {
-
+export const Education = ({ cld }) => {
     return (
         <section id="education">
             <div className="educationPanel knowledgeStyles">
@@ -14,7 +13,7 @@ export const Education = () => {
                     </h2>
                 </div>
             </div>
-            <AlmaMaters/>
+            <AlmaMaters cld={cld} />
         </section>
     );
 }
