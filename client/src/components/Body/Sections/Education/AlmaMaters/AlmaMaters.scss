@@ -4,6 +4,8 @@
 
 .schoolEntry {
   background-color: #eee;
+  display: flex;
+  flex-direction: row;
 }
 
 .educationBreak {
@@ -14,12 +16,14 @@
 .school__name {
   font-family: "Fredericka the Great", cursive;
   font-size: 2.75rem;
+  text-align: center;
 }
 
 .dates__attended {
   font-family: "Fredericka the Great", cursive;
   font-size: 2.25rem;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .degree__obtained {
@@ -27,6 +31,7 @@
   font-size: 2.25rem;
   margin-top: .25rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .schoolWrapper {
@@ -34,19 +39,28 @@
   flex-direction: column;
 }
 
-.childWrapper {
+.schoolDetails {
   padding: 2rem;
+  width: 50%;
 }
 
 .school_highlights {
   font-family: "Fredericka the Great", cursive;
   font-size: 2.25rem;
-  margin-top: .25rem;
+  width: 60%;
+  margin: 0 auto;
 }
 
-.school_highligh_list {
+.school_highlight_list {
   font-family: "Fredericka the Great", cursive;
   font-size: 2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.educationSeparator {
+  margin: 0;
+  padding: 0;
 }
 
 @media(max-width: 915px) {
@@ -54,20 +68,35 @@
     display: flex;
     flex-direction: column;
   }
+
+  .schoolEntry {
+    flex-direction: column;
+  }
+
+  .schoolDetails {
+    width: 100%;
+  }
+
   .schoolPhoto {
     width: 100%!important;
   }
 
-  .school__name, .school_highlights {
+  .school__name {
     font-size: 2rem;
+  }
+
+  .school_highlights {
+    width: 100%;
+    font-size: 1.75rem;
   }
 
   .dates__attended, .degree__obtained {
     font-size: 1.5rem;
   }
 
-  .school_highligh_list {
+  .school_highlight_list {
     font-size: 1.5rem;
     margin-bottom: 0;
+    width: 90%;
   }
 }
