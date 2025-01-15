@@ -53,6 +53,7 @@ root.render(
               {/*<link rel="manifest" href="/manifest.json"/>*/}
               <link rel="canonical" href={SEO_SITE_URL}/>
               <link rel="icon" href="/favicon.ico"/>
+              <meta name="msvalidate.01" content="282151C6AFC7DFF54852612C3D567509"/>
               { /* End Robots & Manifest & Other Links */}
           </Helmet>
           <App/>
