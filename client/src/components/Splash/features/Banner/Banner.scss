@@ -57,6 +57,11 @@ $SET_TO_CENTER: center;
   word-break: break-word;
 }
 
+.site_name {
+  font-size: 1rem;
+  color: black;
+}
+
 @media(max-width: 915px) {
   .welcomeFromAuthor {
     font-size: 2rem;

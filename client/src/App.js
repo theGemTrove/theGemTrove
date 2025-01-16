@@ -19,8 +19,6 @@ function App() {
         }
     });
 
-    console.log("CLD? ", cld);
-
     return (
         <div className="App">
             <Splash />

@@ -5,25 +5,6 @@ import {fill, fit} from "@cloudinary/url-gen/actions/resize";
 import "./AlmaMaters.scss";
 import {useTranslation} from "react-i18next";
 
-/*const OptimizedImage = ({ imgSrc, children }) => {
-    return (
-        <div style={{display: 'flex', position: 'relative', width: '100%'}} className={"school"}>
-            <img
-                src={`${imgSrc}`}
-                alt="Your image description"
-                style={{
-                    minWidth: '50%',
-                    width: '50%',
-                    objectFit: 'fill',
-                    objectPosition: 'center'
-                }}
-                className={"schoolPhoto"}
-            />
-            {children}
-        </div>
-    );
-};*/
-
 export const AlmaMaters = ({ cld }) => {
     console.log("Alma Maters: ", cld);
 
@@ -33,8 +14,6 @@ export const AlmaMaters = ({ cld }) => {
     const
         EL_SEGUNDO = cld.image('el_segundo_qlc4oo'),
         FRCC = cld.image('frcc_x7bhoc');
-
-    console.log("Image? ", FRCC);
 
     FRCC.resize(fill().width(887).height(500));
     EL_SEGUNDO.resize(fill().width(887).height(500));
