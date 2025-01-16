@@ -15,7 +15,6 @@ export const Banner = () => {
         <Container>
             <Row className={"splashRow"}>
                 <Col lg={6} md={6} sm={12} className={""}>
-                    <h1 className="site_name">{t('nav.trademark')}</h1>
                     <h2 className="welcomeFromAuthor">
                         {t('authorIntroduction')}
                     </h2>
