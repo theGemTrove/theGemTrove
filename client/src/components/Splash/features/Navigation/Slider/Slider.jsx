@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import "./Slider.scss";
 import {useTranslation} from "react-i18next";
 
 export const Slider = () => {
-    const {t, i18n} = useTranslation();
+    const
+        [viewingLanguage, setViewingLanguage] = useState('en'),
+        {t, i18n} = useTranslation();
 
     const changeLanguageHandler = (lang) => {
+        setViewingLanguage(lang);
         return i18n.changeLanguage(lang);
     }
     return (
@@ -49,27 +52,34 @@ export const Slider = () => {
                 </li>
             </ul>
             <div className="langPanel">
-                <i className="fa-duotone fa-globe-americas"></i>
-                {/*<small>Translation Services</small>*/}
-                <p className="langDesc-disabled" lang={"en"}
+                { (viewingLanguage === 'en' || viewingLanguage === 'sp') && (
+                    <i className="fa-duotone fa-earth-americas"></i>
+                )}
+                { viewingLanguage === 'cz' && (
+                    <i className="fa-duotone fa-globe-europe"></i>
+                )}
+                { viewingLanguage === 'jp' && (
+                    <i className="fa-duotone fa-globe-asia"></i>
+                )}
+                <p className={`langDesc-disabled ${viewingLanguage === "en" && 'active-lang'}`} lang={"en"}
                    onClick={() => changeLanguageHandler('en')}
                 >
                     {t('nav.americanEnglish')}
                 </p>
-                <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
-                   title="Czech Language Translation Services Coming Soon!" lang={"cz"}
+                <p className={`langDesc-disabled ${viewingLanguage === "cz" && 'active-lang'}`} data-toggle="tooltip" data-placement="top"
+                   title="Czech Language Translation Services In Progress!" lang={"cz"}
                    onClick={() => changeLanguageHandler('cz')}
                 >
                     {t('nav.czech')}
                 </p>
-                <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
-                   title="Spanish Language Translation Services Coming Soon!" lang={"sp"}
+                <p className={`langDesc-disabled ${viewingLanguage === "sp" && 'active-lang'}`} data-toggle="tooltip" data-placement="top"
+                   title="Spanish Language Translation Services In Progress!" lang={"sp"}
                    onClick={() => changeLanguageHandler('sp')}
                 >
                     {t('nav.spanish')}
                 </p>
-                <p className="langDesc-disabled" data-toggle="tooltip" data-placement="top"
-                   title="Japanese Language Translation Services Coming Soon!" lang={"jp"}
+                <p className={`langDesc-disabled ${viewingLanguage === "jp" && 'active-lang'}`} data-toggle="tooltip" data-placement="top"
+                   title="Japanese Language Translation Services In Progress!" lang={"jp"}
                    onClick={() => changeLanguageHandler('jp')}
                 >
                     {t('nav.japanese')}

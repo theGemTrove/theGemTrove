@@ -1,17 +1,16 @@
 import React from 'react';
-import {useTranslation} from 'react-i18next';
 import packageInfo from "../../../../../../package.json";
 
 import './Sidebar.scss';
 
-const info = Object.freeze({
-    link_GitHub: "https://github.com/theGemTrove",
+const info = Object.seal({
+    link_GitHub: "https://github.com/troveofgems",
     link_Email: "mailto:dkgreco@thetroveofgems.tech",
+    site_map: "https://www.thetroveofgems.tech/sitemap.xml",
+    robots: "https://www.thetroveofgems.tech/robots.txt",
     currentYear: new Date(),
     packageVersion: packageInfo.version
 });
-
-console.log("info? ", info);
 
 export const Sidebar = () => {
     return (
@@ -26,7 +25,9 @@ export const Sidebar = () => {
                 </label>
                 <ul className="social-icon-list">
                     <li>
-                        <a href={info.link_GitHub} className="social-link">
+                        <a href={info.link_GitHub} target={"_blank"}
+                           referrerPolicy={"no-referrer"} rel={"noreferrer"}
+                           className="social-link">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </li>
@@ -35,9 +36,23 @@ export const Sidebar = () => {
                             <i className="fa-light fa-envelope"></i>
                         </a>
                     </li>
+                    <li>
+                        <a href={info.site_map} target={"_blank"}
+                           referrerPolicy={"no-referrer"} rel={"noreferrer"}
+                           className="social-link">
+                            <i className="fa-light fa-sitemap"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={info.robots} target={"_blank"}
+                           referrerPolicy={"no-referrer"} rel={"noreferrer"}
+                           className="social-link">
+                            <i className="fa-duotone fa-robot"></i>
+                        </a>
+                    </li>
                 </ul>
                 <div className="year">
-                    <p>&#174; 2020-{info.currentYear.getFullYear()}</p>
+                    <p>2020-{info.currentYear.getFullYear()}</p>
                     <p>v::{info.packageVersion}</p>
                 </div>
             </div>
