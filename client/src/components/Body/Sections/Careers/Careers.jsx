@@ -929,7 +929,7 @@ export const Careers = () => {
                                                         </ul>
                                                     </h4>
                                                     <h5 className="acquisitionBy">Visit The Company Site <a
-                                                        href="http://www.daveandbusters.com/">Here</a></h5>
+                                                        href="https://www.daveandbusters.com/">Here</a></h5>
                                                     <h6 className="employmentLength">Employment Length: 4 years |
                                                         11/2007 -
                                                         8/2011</h6>
@@ -1600,7 +1600,7 @@ export const Careers = () => {
                                                 </ul>
                                             </h4>
                                             <h5 className="acquisitionBy">Visit The Company Site <a
-                                                href="http://www.daveandbusters.com/">Here</a></h5>
+                                                href="https://www.daveandbusters.com/">Here</a></h5>
                                             <h6 className="employmentLength">Employment Length: 4 years | 11/2007 -
                                                 8/2011</h6>
                                         </hgroup>

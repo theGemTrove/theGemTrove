@@ -4,7 +4,7 @@ import "./CoruscatingGem.scss";
 export const CoruscatingGem = () => (
     <div className="gemContainer">
         <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="gem"
-             className="svg-inline--fa fa-gem fa-w-16 fa-fw gem" role="img" xmlns="http://www.w3.org/2000/svg"
+             className="svg-inline--fa fa-gem fa-w-16 fa-fw gem" role="img" xmlns="https://www.w3.org/2000/svg"
              viewBox="0 0 576 512">
             <g className="fa-group">
                 <path className="fa-secondary" fill="currentColor"
