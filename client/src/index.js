@@ -22,11 +22,9 @@ root.render(
       <HelmetProvider>
           <Helmet prioritizeSeoTags>
               { /* Standard metadata tags */}
-              <meta charSet="utf-8"/>
-              <title>{SEO_TITLE}</title>
-              <meta name='description' content={SEO_DESCRIPTION}/>
+              {/*<meta name='description' content={SEO_DESCRIPTION}/>
               <meta name="keywords" content={SEO_KEYWORDS}/>
-              <meta name="author" content={SEO_SITE_AUTHOR}/>
+              <meta name="author" content={SEO_SITE_AUTHOR}/>*/}
               <meta name="viewport" content="width=device-width, initial-scale=1"/>
               <meta name="google" content="notranslate"/>
               <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
