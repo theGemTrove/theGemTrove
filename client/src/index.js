@@ -22,9 +22,6 @@ root.render(
       <HelmetProvider>
           <Helmet prioritizeSeoTags>
               { /* Standard metadata tags */}
-              {/*<meta name='description' content={SEO_DESCRIPTION}/>
-              <meta name="keywords" content={SEO_KEYWORDS}/>
-              <meta name="author" content={SEO_SITE_AUTHOR}/>*/}
               <meta name="viewport" content="width=device-width, initial-scale=1"/>
               <meta name="google" content="notranslate"/>
               <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
@@ -49,8 +46,7 @@ root.render(
                     rel="stylesheet"/>
               <meta name="robots" content="index, follow"/>
               {/*<link rel="manifest" href="/manifest.json"/>*/}
-              <link rel="canonical" href={SEO_SITE_URL}/>
-              <link rel="icon" href="/favicon.ico"/>
+              {/*<link rel="canonical" href={SEO_SITE_URL}/>*/}
               { /* End Robots & Manifest & Other Links */}
           </Helmet>
           <App/>
