@@ -49,7 +49,7 @@ root.render(
               { /* Robots & Manifest & Other Links */}
               <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
                     rel="stylesheet"/>
-              <meta name="robots" content="index, nofollow"/>
+              <meta name="robots" content="index, follow"/>
               {/*<link rel="manifest" href="/manifest.json"/>*/}
               <link rel="canonical" href={SEO_SITE_URL}/>
               <link rel="icon" href="/favicon.ico"/>
