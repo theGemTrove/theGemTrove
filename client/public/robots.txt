@@ -2,6 +2,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.thetroveofgems.tech/sitemap.xml
-
-User-agent: GPTbot
-Disallow: /
